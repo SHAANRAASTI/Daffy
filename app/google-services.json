@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722747220153",
+    "project_id": "sanctify-601f1",
+    "storage_bucket": "sanctify-601f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722747220153:android:5a6ecdf8ca04c96daf3b68",
+        "android_client_info": {
+          "package_name": "com.shaan.sanctify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722747220153-3f6tcfm5mbdd7r3jtc040mhhn4ee6iqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTJsj72qvaOlcbdzVaxxNnxrTwuO6P17o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722747220153-3f6tcfm5mbdd7r3jtc040mhhn4ee6iqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
