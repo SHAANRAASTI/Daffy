@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [:liquidswipe] D:\Sanctify\liquidswipe\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\5655e3fc5f49560096a16a3577c18b33\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\d7262159c715b1cf2e8c3bbea4f9188d\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -56,25 +56,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\SHAAN\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\0b8de9213f0989c86c5928c53967f078\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\a9d4621e927d3318af1933d80779f77e\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\de6d6112b7b03185869b771b2eceaac9\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:5:5-29:19
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\5655e3fc5f49560096a16a3577c18b33\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\5655e3fc5f49560096a16a3577c18b33\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\d7262159c715b1cf2e8c3bbea4f9188d\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -115,40 +115,36 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SH
 		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:11:9-54
-activity#com.shaan.sanctify.splashscreen.s
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:12:9-14:20
-	android:name
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:12:19-49
 activity#com.shaan.sanctify.LoginActivity
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:15:9-60
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:12:9-60
 	android:name
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:15:19-48
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:12:19-48
 activity#com.shaan.sanctify.splashscreen.SplashScreen
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:16:9-25:20
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:13:9-22:20
 	android:name
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:16:19-60
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:13:19-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.shaan.sanctify.ProfileActivity
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:26:9-62
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:23:9-62
 	android:name
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:26:19-50
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:23:19-50
 activity#com.shaan.sanctify.RegisterActivity
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:27:9-54
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:24:9-54
 	android:name
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:27:19-51
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:24:19-51
 activity#com.shaan.sanctify.MainActivity
-ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:28:9-50
+ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:28:19-47
+		ADDED from D:\Sanctify\app\src\main\AndroidManifest.xml:25:19-47
 uses-sdk
 INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Sanctify\app\src\main\AndroidManifest.xml

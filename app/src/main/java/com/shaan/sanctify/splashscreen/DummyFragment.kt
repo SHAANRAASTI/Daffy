@@ -1,14 +1,20 @@
 package com.shaan.sanctify.splashscreen
 
+import android.content.Context
+import android.content.Intent
+import android.content.SharedPreferences
 import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieDrawable
+import com.google.firebase.auth.FirebaseUser
+import com.shaan.sanctify.MainActivity
 import com.shaan.sanctify.R
 
 private const val ARG_BACKGROUND_COLOR = "param1"
@@ -19,9 +25,13 @@ class DummyFragment : Fragment() {
     private var param1: Int? = null
     private var param2: Int? = null
     private var param3: String? = null
-
+    var currentUser: FirebaseUser? = null
+    var onBoardingScreen: SharedPreferences? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
+
         arguments?.let {
             param1 = it.getInt(ARG_BACKGROUND_COLOR)
             param2 = it.getInt(ARG_RESOURCE)
@@ -32,10 +42,47 @@ class DummyFragment : Fragment() {
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
+
+
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_dummy, container, false).apply {
             setBackgroundColor(param1 ?: Color.RED)
+
+            val skip_btn = findViewById<Button>(R.id.skip_btn)
+
+            skip_btn.setOnClickListener {
+              /*  val editor = onBoardingScreen!!.edit()
+                editor.putBoolean("firsttime", false)
+                editor.apply()*/
+
+                val intent = Intent(activity, MainActivity::class.java)
+                startActivity(intent)
+            }
+            fun checkUserStatus() {
+
+                val isFirstTime = onBoardingScreen?.getBoolean("firsttime", true)
+                if (currentUser == null) {
+                    if (isFirstTime == true) {
+                        //move to OnBoarding activity
+                        val intent = Intent(activity, DummyFragment::class.java)
+                        startActivity(intent)
+                    } else {
+                        //move to activity_mainlogin activity
+                        val intent = Intent(activity, MainActivity::class.java)
+                        startActivity(intent)
+                    }
+
+                }
+            }
+
+            fun onStart() {
+                //check on start of app
+                checkUserStatus()
+                super.onStart()
+            }
+
+
 
             findViewById<LottieAnimationView>(R.id.lottieAnimationView).setAnimation(
                     param2 ?: R.raw.mountain

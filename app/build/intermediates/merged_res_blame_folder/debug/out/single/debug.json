@@ -32,8 +32,16 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\font_alegreya_bold.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\font\\alegreya_bold.xml"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\font_alegreya.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\font\\alegreya.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
@@ -48,28 +56,20 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_one.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_one.xml"
-    },
-    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_circle_empty.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\white_circle_empty.xml"
-    },
-    {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_s.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_s.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_three.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_three.xml"
-    },
-    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_other.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\button_other.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_map.json.flat",
@@ -128,12 +128,12 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\mountain.json"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_luggage.json.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\luggage.json"
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skip_icon.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\skip_icon.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_two.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_two.xml"
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_luggage.json.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\luggage.json"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",

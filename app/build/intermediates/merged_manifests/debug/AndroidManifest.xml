@@ -21,8 +21,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SocialImpression" >
-        <activity android:name="com.shaan.sanctify.splashscreen.s" >
-        </activity>
         <activity android:name="com.shaan.sanctify.LoginActivity" />
         <activity android:name="com.shaan.sanctify.splashscreen.SplashScreen" >
             <intent-filter>
