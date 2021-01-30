@@ -1,2 +1,4 @@
 include ':app'
+include ':liquidswipe'
+
 rootProject.name = "Social Impression"

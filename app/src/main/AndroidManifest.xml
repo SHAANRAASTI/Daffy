@@ -9,16 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SocialImpression">
-        <activity android:name="com.shaan.sanctify.LoginActivity"></activity>
-        <activity android:name="com.shaan.sanctify.ProfileActivity">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".splashscreen.SplashScreen">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
-        <activity android:name="com.shaan.sanctify.RegisterActivity" />
-        <activity android:name="com.shaan.sanctify.MainActivity"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

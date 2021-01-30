@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "722747220153",
+    "firebase_url": "https://sanctify-601f1-default-rtdb.firebaseio.com",
     "project_id": "sanctify-601f1",
     "storage_bucket": "sanctify-601f1.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "722747220153-2u9al1vlvirqal67ku58sm82v8f9e1nk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shaan.sanctify",
+            "certificate_hash": "e258c12f4855fc0b8a5716a9b49e6e9bd5d89748"
+          }
+        },
         {
           "client_id": "722747220153-3f6tcfm5mbdd7r3jtc040mhhn4ee6iqs.apps.googleusercontent.com",
           "client_type": 3

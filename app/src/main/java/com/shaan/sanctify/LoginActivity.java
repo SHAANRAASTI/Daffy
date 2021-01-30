@@ -65,7 +65,11 @@ public class LoginActivity extends AppCompatActivity {
         //before mAuth
         //configure Google Sign In
         // Configure Google Sign In
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+
+// Configure Google Sign In
+
+
+       GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
@@ -116,14 +120,14 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
         //recover pass textview click
-    mRecoverPassTv.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            showRecoverPasswordDialog();
-        }
-    });
+        mRecoverPassTv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showRecoverPasswordDialog();
+            }
+        });
 
-    //handle google login btn click
+        //handle google login btn click
         mGoogleLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -162,8 +166,8 @@ public class LoginActivity extends AppCompatActivity {
         builder.setPositiveButton("Recover", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-            String email = emailEt.getText().toString().trim();
-           beginRecovery(email);
+                String email = emailEt.getText().toString().trim();
+                beginRecovery(email);
 
             }
         });
@@ -171,7 +175,7 @@ public class LoginActivity extends AppCompatActivity {
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-            //dismiss dialog
+                //dismiss dialog
                 dialog.dismiss();
             }
         });
@@ -190,22 +194,22 @@ public class LoginActivity extends AppCompatActivity {
         mAuth.sendPasswordResetEmail(email).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
-            pd.dismiss();
-            if(task.isSuccessful())
-            {
-                Toast.makeText(LoginActivity.this,"Email sent",Toast.LENGTH_SHORT).show();
-            }
-            else
-            {
-                Toast.makeText(LoginActivity.this,"Failed",Toast.LENGTH_SHORT).show();
+                pd.dismiss();
+                if(task.isSuccessful())
+                {
+                    Toast.makeText(LoginActivity.this,"Email sent",Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    Toast.makeText(LoginActivity.this,"Failed",Toast.LENGTH_SHORT).show();
 
-            }
+                }
 
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-            pd.dismiss();
+                pd.dismiss();
                 //get and show poper error message
                 Toast.makeText(LoginActivity.this,""+e.getMessage(),Toast.LENGTH_SHORT).show();
 
@@ -225,24 +229,24 @@ public class LoginActivity extends AppCompatActivity {
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                    if(task.isSuccessful())
-                    {
-                        // dismiss progress dialog
-                        pd.dismiss();
+                        if(task.isSuccessful())
+                        {
+                            // dismiss progress dialog
+                            pd.dismiss();
 
-                        // sign in success, update UI with the signed-in user's information
-                        FirebaseUser user = mAuth.getCurrentUser();
-                        //user is logged in, so start LoginActivity
-                   startActivity(new Intent(LoginActivity.this,ProfileActivity.class));
-                    finish();
+                            // sign in success, update UI with the signed-in user's information
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            //user is logged in, so start LoginActivity
+                            startActivity(new Intent(LoginActivity.this,ProfileActivity.class));
+                            finish();
 
-                    }
-                    else{
-                        // dismiss progress dialog
-                        pd.dismiss();
-                        //if sign in fails, display a message to the user
-                        Toast.makeText(LoginActivity.this,"Authentication failed.",Toast.LENGTH_SHORT).show();
-                    }
+                        }
+                        else{
+                            // dismiss progress dialog
+                            pd.dismiss();
+                            //if sign in fails, display a message to the user
+                            Toast.makeText(LoginActivity.this,"Authentication failed.",Toast.LENGTH_SHORT).show();
+                        }
 
                     }
                 }).addOnFailureListener(new OnFailureListener() {

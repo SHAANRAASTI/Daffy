@@ -1,0 +1,2 @@
+com/jem/liquidswipe/BuildConfig.java
+ com.jem.liquidswipe.BuildConfig

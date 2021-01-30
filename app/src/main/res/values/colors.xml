@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorBlack">#000</color>
     <color name="colorWhite">#fff</color>
+    <color name="backgroundOne">#722FDD</color>
+    <color name="backgroundTwo">#2BBBD5</color>
+    <color name="backgroundThree">#DD185D</color>
 </resources>

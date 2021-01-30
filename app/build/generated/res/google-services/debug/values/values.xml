@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="default_web_client_id" translatable="false">722747220153-3f6tcfm5mbdd7r3jtc040mhhn4ee6iqs.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sanctify-601f1-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">722747220153</string>
     <string name="google_api_key" translatable="false">AIzaSyDTJsj72qvaOlcbdzVaxxNnxrTwuO6P17o</string>
     <string name="google_app_id" translatable="false">1:722747220153:android:5a6ecdf8ca04c96daf3b68</string>

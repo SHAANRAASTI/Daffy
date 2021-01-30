@@ -16,13 +16,23 @@ com/shaan/sanctify/MainActivity.java
  com.shaan.sanctify.MainActivity
  com.shaan.sanctify.MainActivity$1
  com.shaan.sanctify.MainActivity$2
+com/shaan/sanctify/splashscreen/FragmentThree.java
+ com.shaan.sanctify.splashscreen.FragmentThree
 com/shaan/sanctify/BuildConfig.java
  com.shaan.sanctify.BuildConfig
+com/shaan/sanctify/splashscreen/FragmentTwo.java
+ com.shaan.sanctify.splashscreen.FragmentTwo
 com/shaan/sanctify/ProfileActivity.java
  com.shaan.sanctify.ProfileActivity
+com/shaan/sanctify/splashscreen/ViewPagerAdapter.java
+ com.shaan.sanctify.splashscreen.ViewPagerAdapter
 com/shaan/sanctify/RegisterActivity.java
  com.shaan.sanctify.RegisterActivity
  com.shaan.sanctify.RegisterActivity$1
  com.shaan.sanctify.RegisterActivity$2
  com.shaan.sanctify.RegisterActivity$3
  com.shaan.sanctify.RegisterActivity$4
+com/shaan/sanctify/splashscreen/s.java
+ com.shaan.sanctify.splashscreen.s
+com/shaan/sanctify/splashscreen/FragmentOne.java
+ com.shaan.sanctify.splashscreen.FragmentOne
