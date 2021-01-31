@@ -4,12 +4,20 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_home_black.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-anydpi\\ic_home_black.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_users_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-hdpi\\ic_users_black.png"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dummy.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_dummy.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-hdpi\\ic_profile_black.png"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -18,6 +26,10 @@
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_van.json.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\van.json"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_users.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_users.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -36,44 +48,32 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\font\\alegreya_bold.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\button_bg.xml"
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_users_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\ic_users_black.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-mdpi\\ic_home_black.png"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\font_alegreya.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\font\\alegreya.xml"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_black.png"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
-    },
-    {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_circle_empty.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\white_circle_empty.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_other.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\button_other.xml"
-    },
-    {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_map.json.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\map.json"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -84,24 +84,36 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_firebase.jpg.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\firebase.jpg"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_profile_black.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-anydpi\\ic_profile_black.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\ic_profile_black.png"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_users_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xhdpi\\ic_users_black.png"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_circle.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\white_circle.xml"
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_users_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-mdpi\\ic_users_black.png"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -110,10 +122,6 @@
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_camera.json.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\camera.json"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -128,6 +136,10 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\mountain.json"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skip_icon.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\skip_icon.xml"
     },
@@ -138,5 +150,69 @@
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-mdpi\\ic_profile_black.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-hdpi\\ic_home_black.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_map.json.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\map.json"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xhdpi\\ic_profile_black.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_circle.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\white_circle.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\menu_nenu_nav.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\menu\\nenu_nav.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_camera.json.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\camera.json"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black.png.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xhdpi\\ic_home_black.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_users_black.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-anydpi\\ic_users_black.xml"
     }
 ]

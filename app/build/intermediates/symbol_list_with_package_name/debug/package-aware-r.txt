@@ -1613,12 +1613,15 @@ drawable design_snackbar_background
 drawable firebase
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_home_black
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_profile_black
+drawable ic_users_black
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1906,6 +1909,10 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nav_home
+id nav_profile
+id nav_users
+id navigation
 id navigation_header_container
 id never
 id noScroll
@@ -1934,7 +1941,6 @@ id percent
 id pin
 id position
 id postLayout
-id profileTv
 id progress_circular
 id progress_horizontal
 id radio
@@ -2124,9 +2130,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_dashboard
 layout activity_login
 layout activity_main
-layout activity_profile
 layout activity_register
 layout activity_splashscreen
 layout custom_dialog
@@ -2146,6 +2152,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_dummy
+layout fragment_home
+layout fragment_profile
+layout fragment_users
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2208,6 +2217,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu menu_main
+menu nenu_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

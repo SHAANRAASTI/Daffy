@@ -23,15 +23,16 @@
         android:theme="@style/Theme.SocialImpression" >
         <activity android:name="com.shaan.sanctify.LoginActivity" />
         <activity android:name="com.shaan.sanctify.splashscreen.SplashScreen" >
+        </activity>
+        <activity android:name="com.shaan.sanctify.DashboardActivity" />
+        <activity android:name="com.shaan.sanctify.RegisterActivity" />
+        <activity android:name="com.shaan.sanctify.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.shaan.sanctify.ProfileActivity" />
-        <activity android:name="com.shaan.sanctify.RegisterActivity" />
-        <activity android:name="com.shaan.sanctify.MainActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
@@ -85,6 +86,16 @@
             android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <!--
+                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+                clients to use it as well, by defining this registrar in their own core/common library.
+            -->
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
