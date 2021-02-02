@@ -7,10 +7,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,16 +33,11 @@ import java.util.HashMap;
 
 public class RegisterActivity extends AppCompatActivity {
 //views
-
-    EditText mEmailEt, mPasswordEt;
-    Button mRegister_btn;
-    TextView mHaveaccountTv;
-
-    // progressBar to display while registering user
-    ProgressDialog progressDialog;
-
-    //Declare an instance of FirebaseAuth
-    private FirebaseAuth mAuth;
+EditText emailEt,passEt,confirm_pass;
+    Button register_btn,login_btn;
+    CheckBox checkBox;
+    ProgressBar progressBar;
+    FirebaseAuth mAuth;
 
 
     @Override
@@ -44,123 +45,93 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        //Actionbar and its title
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Create Account");
-        // enable back button
-        actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setDisplayHomeAsUpEnabled(true);
-
-        //init
-        mEmailEt = findViewById(R.id.emailEt);
-        mPasswordEt = findViewById(R.id.passwordEt);
-        mRegister_btn = findViewById(R.id.register_btn);
-        mHaveaccountTv = findViewById(R.id.have_accountTv);
-
-        // In the oncreate method  initialize the FirebaseAuth instance.
+        emailEt = findViewById(R.id.register_email_et);
+        passEt = findViewById(R.id.register_password_et);
+        confirm_pass = findViewById(R.id.register_confirmpassword_et);
+        register_btn = findViewById(R.id.button_register);
+        login_btn = findViewById(R.id.signup_to_login);
+        checkBox = findViewById(R.id.register_checkbox);
+        progressBar  = findViewById(R.id.progressbar_register);
         mAuth = FirebaseAuth.getInstance();
-        progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Registering User...");
 
-        mRegister_btn.setOnClickListener(new View.OnClickListener() {
+        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onClick(View v) {
-                    //input email, password
-                String email = mEmailEt.getText().toString().trim();
-                String password = mPasswordEt.getText().toString().trim();
-                //validate
-                if(!Patterns.EMAIL_ADDRESS.matcher(email).matches())
-                {
-                    //set error and focus to email edittext
-                    mEmailEt.setError("Invalid Email");
-                    mEmailEt.setFocusable(true);
-                }
-                else if( password.length()<6)
-                {
-                    //set error and focus to pasword edittext
-                    mPasswordEt.setError("Password length at least 6 characters");
-                    mPasswordEt.setFocusable(true);
-                }
-                else
-                {
-                    registerUser(email, password); //register the user
-                }
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 
+                if (b){
+                    passEt.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                    confirm_pass.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                }else {
+
+                    passEt.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                    confirm_pass.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                }
+            }
+        });
+
+        register_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String email = emailEt.getText().toString();
+                String pass = passEt.getText().toString();
+                String confirm_password = confirm_pass.getText().toString();
+
+                if (!TextUtils.isEmpty(email) || !TextUtils.isEmpty(pass) || !TextUtils.isEmpty(confirm_password)){
+
+                    if (pass.equals(confirm_password)){
+                        progressBar.setVisibility(View.VISIBLE);
+
+                        mAuth.createUserWithEmailAndPassword(email,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+
+                                if (task.isSuccessful()){
+                                    sendtoMain();
+                                    progressBar.setVisibility(View.INVISIBLE);
+                                }else {
+                                    String error = task.getException().getMessage();
+                                    Toast.makeText(RegisterActivity.this, "Error :"+error, Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+
+                    }else {
+                        progressBar.setVisibility(View.INVISIBLE);
+                        Toast.makeText(RegisterActivity.this, "password and confirm password is not matching", Toast.LENGTH_SHORT).show();
+                    }
+                }else {
+                    Toast.makeText(RegisterActivity.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
+        login_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(intent);
 
             }
         });
-        //handle login textview click listener
-        mHaveaccountTv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
-                finish();
-            }
-        });
+
     }
 
-    private void registerUser(String email, String password) {
-        // email and password pattern is valid show progress dialog and start registering user
-    progressDialog.show();
-        mAuth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // Sign in success, dismiss dialog and start register activity
-                            progressDialog.dismiss();
-                            FirebaseUser user = mAuth.getCurrentUser();
-
-                            //get user email and uid from auth
-                            String email = user.getEmail();
-                            String uid = user.getUid();
-                            // when user is registered store user info in firebase realtime database too
-                            //using Hashmap
-                            HashMap<Object, String> hashMap = new HashMap<>();
-                            //put  info in hashmap
-                            hashMap.put("email", email);
-                            hashMap.put("uid", uid);
-                            hashMap.put("namel", "");
-                            hashMap.put("phone", "");
-                            hashMap.put("image", "");
-                            //firebase database 9instance
-                            FirebaseDatabase database = FirebaseDatabase.getInstance();
-                            //path to store data named "Users"
-                            DatabaseReference reference = database.getReference("Users");
-                            //put data within hashmap in database
-                            reference.child(uid).setValue(hashMap);
-
-
-
-
-
-                            Toast.makeText(RegisterActivity.this, "REgistered.. \n"+user.getEmail(),
-                                    Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(RegisterActivity.this, DashboardActivity.class));
-                            finish();
-                        } else {
-                            // If sign in fails, display a message to the user.
-                           progressDialog.dismiss();
-                            Toast.makeText(RegisterActivity.this, "Authentication failed.",
-                                    Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception e) {
-                //error dismiss progress dialog and get and show the error message
-                progressDialog.dismiss();
-                Toast.makeText(RegisterActivity.this, ""+e.getMessage(),
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
-
+    private void sendtoMain() {
+        Intent intent = new Intent(RegisterActivity.this,CreateProfile.class);
+        startActivity(intent);
+        finish();
     }
 
     @Override
-    public boolean onSupportNavigateUp() {
-        onBackPressed(); // go to previous activity
+    protected void onStart() {
+        super.onStart();
 
-        return super.onSupportNavigateUp();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user != null){
+            sendtoMain();
+        }
+
     }
 }

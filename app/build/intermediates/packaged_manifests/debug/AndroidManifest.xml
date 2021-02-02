@@ -9,6 +9,8 @@
         android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -21,9 +23,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SocialImpression" >
+        <activity android:name="com.shaan.sanctify.ImageActivity" />
+        <activity android:name="com.shaan.sanctify.PrivacyActivity" />
+        <activity android:name="com.shaan.sanctify.UpdateProfile" />
+        <activity android:name="com.shaan.sanctify.CreateProfile" />
         <activity android:name="com.shaan.sanctify.LoginActivity" />
-        <activity android:name="com.shaan.sanctify.splashscreen.SplashScreen" >
-        </activity>
+        <activity android:name="com.shaan.sanctify.splashscreen.SplashScreen" />
         <activity android:name="com.shaan.sanctify.DashboardActivity" />
         <activity android:name="com.shaan.sanctify.RegisterActivity" />
         <activity android:name="com.shaan.sanctify.MainActivity" >
@@ -33,6 +38,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.shaan.sanctify.com.squareup.picasso"
+            android:exported="false" />
+
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
@@ -89,6 +100,12 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <!--
                 This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase

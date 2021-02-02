@@ -610,8 +610,26 @@ attr maxImageSize
 attr maxLines
 attr maxVelocity
 attr maxWidth
+attr mbn_backgroundBottomColor
+attr mbn_circleColor
+attr mbn_countBackgroundColor
+attr mbn_countTextColor
+attr mbn_countTypeface
+attr mbn_defaultIconColor
+attr mbn_rippleColor
+attr mbn_selectedIconColor
+attr mbn_shadowColor
 attr measureWithLargestChild
 attr menu
+attr meow_imageview_actionBackgroundAlpha
+attr meow_imageview_changeSize
+attr meow_imageview_color
+attr meow_imageview_fitImage
+attr meow_imageview_isAction
+attr meow_imageview_isBitmap
+attr meow_imageview_resource
+attr meow_imageview_size
+attr meow_imageview_useColor
 attr minHeight
 attr minTouchTargetSize
 attr minWidth
@@ -1024,6 +1042,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1120,6 +1139,7 @@ color purple_200
 color purple_500
 color purple_700
 color radiobutton_themeable_attribute_color
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1575,6 +1595,9 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_custom_reply
+drawable border_deco
+drawable bottom_sheet_lock
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1583,6 +1606,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_back
 drawable button_bg
 drawable button_other
 drawable common_full_open_on_phone
@@ -1604,24 +1628,64 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable custom_email_input
+drawable custom_input
+drawable custom_pass_input
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable email_focused
 drawable firebase
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_account
+drawable ic_add_image
+drawable ic_baseline_add_24
+drawable ic_baseline_add_photo_alternate_24
+drawable ic_baseline_bookmarks_24
+drawable ic_baseline_category_24
+drawable ic_baseline_delete_24
+drawable ic_baseline_edit_24
+drawable ic_baseline_email_24
+drawable ic_baseline_home_24
+drawable ic_baseline_keyboard_arrow_left_24
+drawable ic_baseline_lock_24
+drawable ic_baseline_menu_24
+drawable ic_baseline_people_24
+drawable ic_baseline_person_24
+drawable ic_baseline_power_settings_new_24
+drawable ic_baseline_public_24
+drawable ic_baseline_queue_24
+drawable ic_baseline_rate_review_24
+drawable ic_baseline_restore_24
+drawable ic_baseline_turned_in_24
+drawable ic_baseline_turned_in_not_24
+drawable ic_baseline_work_24
+drawable ic_bio
+drawable ic_comment
+drawable ic_default_img_white
+drawable ic_dislike
+drawable ic_edit_white
+drawable ic_explore
+drawable ic_home
 drawable ic_home_black
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_like
+drawable ic_message
+drawable ic_moreoptions
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notification
+drawable ic_person
 drawable ic_profile_black
 drawable ic_users_black
+drawable lock_focused
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1739,6 +1803,7 @@ id always
 id animateToEnd
 id animateToStart
 id asConfigured
+id ask_bottom
 id async
 id auto
 id autoComplete
@@ -1751,8 +1816,16 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
+id bottom_navigation
 id bounce
+id btn_cp
+id btn_del_iv
+id btn_edit_iv
+id btn_privacy
+id btn_sendmessage_f1
+id btn_up
 id buttonPanel
+id button_register
 id cache_measures
 id cancel_action
 id cancel_button
@@ -1782,7 +1855,11 @@ id cos
 id custom
 id customPanel
 id cut
+id cv_delete
+id cv_logout
+id cv_privacy
 id dark
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1818,6 +1895,16 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_bio_cp
+id et_bio_up
+id et_email_cp
+id et_email_up
+id et_name_cp
+id et_name_up
+id et_profession_cp
+id et_profession_up
+id et_web_cp
+id et_web_up
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1828,6 +1915,7 @@ id fill_vertical
 id filled
 id fitToContents
 id fixed
+id fl
 id flip
 id floating
 id forever
@@ -1842,12 +1930,14 @@ id group_divider
 id grouping
 id groups
 id hardware
-id have_accountTv
 id hideable
 id home
 id homeAsUp
+id home_bottom
 id honorRequest
 id horizontalBottomGuideLine
+id ib_edit_f1
+id ib_menu_f1
 id icon
 id icon_group
 id icon_only
@@ -1859,6 +1949,10 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id iv
+id iv_cp
+id iv_expand
+id iv_f1
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -1912,7 +2006,6 @@ id multiply
 id nav_home
 id nav_profile
 id nav_users
-id navigation
 id navigation_header_container
 id never
 id noScroll
@@ -1924,6 +2017,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id outline
 id packed
 id parallax
@@ -1941,19 +2036,28 @@ id percent
 id pin
 id position
 id postLayout
+id profile_bottom
 id progress_circular
 id progress_horizontal
+id progressbar_cp
+id progressbar_register
+id queue_bottom
 id radio
 id ratio
 id recoverPassTv
 id rectangles
 id register_btn
+id register_checkbox
+id register_confirmpassword_et
+id register_email_et
+id register_password_et
 id restart
 id reverse
 id reverseSawtooth
 id right
 id right_icon
 id right_side
+id root_container
 id rounded
 id row_index_key
 id save_non_transition_alpha
@@ -1982,6 +2086,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup_to_login
 id sin
 id skipCollapsed
 id skip_btn
@@ -1993,6 +2098,7 @@ id snap
 id snapMargins
 id software
 id spacer
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -2031,6 +2137,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textWatcher
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2055,11 +2162,23 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_addstories_f1
+id tv_bio_f1
+id tv_count
+id tv_email_f1
+id tv_followers_f1
+id tv_name_f1
+id tv_name_image
+id tv_post_f1
+id tv_prof_f1
+id tv_status
+id tv_web_f1
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
+id v_circle
 id view_offset_helper
 id viewpager
 id visible
@@ -2130,11 +2249,16 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_create_profile
 layout activity_dashboard
+layout activity_image
 layout activity_login
 layout activity_main
+layout activity_privacy
 layout activity_register
 layout activity_splashscreen
+layout activity_update_profile
+layout bottom_sheet_menu
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2155,6 +2279,7 @@ layout fragment_dummy
 layout fragment_home
 layout fragment_profile
 layout fragment_users
+layout meow_navigation_cell
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2216,6 +2341,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu bottom_menu
 menu menu_main
 menu nenu_nav
 mipmap ic_launcher
@@ -3062,6 +3188,7 @@ styleable BottomNavigationView backgroundTint elevation itemBackground itemHoriz
 styleable BottomSheetBehavior_Layout android_elevation backgroundTint behavior_draggable behavior_expandedOffset behavior_fitToContents behavior_halfExpandedRatio behavior_hideable behavior_peekHeight behavior_saveFlags behavior_skipCollapsed gestureInsetBottomIgnored shapeAppearance shapeAppearanceOverlay
 styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
+styleable CellImageView meow_imageview_actionBackgroundAlpha meow_imageview_changeSize meow_imageview_color meow_imageview_fitImage meow_imageview_isAction meow_imageview_isBitmap meow_imageview_resource meow_imageview_size meow_imageview_useColor
 styleable Chip android_textAppearance android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance maxLines scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
@@ -3119,6 +3246,7 @@ styleable MaterialTextView android_textAppearance android_lineHeight lineHeight
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
+styleable MeowBottomNavigation mbn_backgroundBottomColor mbn_circleColor mbn_countBackgroundColor mbn_countTextColor mbn_countTypeface mbn_defaultIconColor mbn_rippleColor mbn_selectedIconColor mbn_shadowColor
 styleable MockView mock_diagonalsColor mock_label mock_labelBackgroundColor mock_labelColor mock_showDiagonals mock_showLabel
 styleable Motion animate_relativeTo drawPath motionPathRotate motionStagger pathMotionArc transitionEasing
 styleable MotionHelper onHide onShow

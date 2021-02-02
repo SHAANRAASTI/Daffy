@@ -1,10 +1,13 @@
-#Sun Jan 31 14:25:12 IST 2021
+#Tue Feb 02 15:51:03 IST 2021
+path.3=classes2.dex
 path.2=classes_0.dex
 path.1=classes.dex
 path.0=classes.dex
+renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+base.3=D\:\\Sanctify\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.2=D\:\\Sanctify\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_0.dex
 base.1=D\:\\Sanctify\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 base.0=D\:\\Sanctify\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
