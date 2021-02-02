@@ -15,31 +15,36 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.Transaction;
 
+import org.jetbrains.annotations.NotNull;
+
+import java.util.HashMap;
+
 public class UpdateProfile extends AppCompatActivity {
     EditText etname,etBio,etProfession,etEmail,etWeb;
     Button button;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference reference;
+    DatabaseReference databaseReference;
     DocumentReference documentReference ;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
+    FirebaseUser user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_profile);
 
-
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        String  currentuid= user.getUid();
-        documentReference = db.collection("user").document(currentuid);
+        databaseReference = database.getReference("Users");
 
         etBio = findViewById(R.id.et_bio_up);
         etEmail = findViewById(R.id.et_email_up);
@@ -62,19 +67,21 @@ public class UpdateProfile extends AppCompatActivity {
         super.onStart();
 
 
+        user = FirebaseAuth.getInstance().getCurrentUser();
+        String userid = user.getUid();
+//read user table
+        databaseReference.child(userid).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
 
-        documentReference.get()
-                .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (dataSnapshot.exists()) {
 
-                        if (task.getResult().exists()){
-                            String nameResult = task.getResult().getString("name");
-                            String bioResult = task.getResult().getString("bio");
-                            String emailResult = task.getResult().getString("email");
-                            String webResult = task.getResult().getString("web");
-                            String url = task.getResult().getString("url");
-                            String profResult = task.getResult().getString("prof");
+                    String nameResult = dataSnapshot.child("name").getValue().toString();
+                    String bioResult = dataSnapshot.child("bio").getValue().toString();
+                    String emailResult = dataSnapshot.child("email").getValue().toString();
+                    String webResult = dataSnapshot.child("web").getValue().toString();
+                    String url = dataSnapshot.child("url").getValue().toString();
+                    String profResult = dataSnapshot.child("prof").getValue().toString();
 
 
                             etname.setText(nameResult);
@@ -82,16 +89,24 @@ public class UpdateProfile extends AppCompatActivity {
                             etEmail.setText(emailResult);
                             etWeb.setText(webResult);
                             etProfession.setText(profResult);
+
                         }else {
                             Toast.makeText(UpdateProfile.this, "No profile ", Toast.LENGTH_SHORT).show();
                         }
 
                     }
-                });
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
 
     }
 
     private void updateProfile() {
+        user = FirebaseAuth.getInstance().getCurrentUser();
+        String userid = user.getUid();
 
         final String name = etname.getText().toString();
         final String bio = etBio.getText().toString();
@@ -99,40 +114,25 @@ public class UpdateProfile extends AppCompatActivity {
         final String web = etWeb.getText().toString();
         final String email =etEmail.getText().toString();
 
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        String currentuid1= user.getUid();
-        final  DocumentReference sDoc = db.collection("user").document(currentuid1);
-        db.runTransaction(new Transaction.Function<Void>() {
-            @Override
-            public Void apply(Transaction transaction) throws FirebaseFirestoreException {
-                DocumentSnapshot snapshot = transaction.get(sDoc);
+        HashMap hashMap = new HashMap();
+        hashMap.put("name", name);
+        hashMap.put("bio", bio);
+        hashMap.put("prof", prof);
+        hashMap.put("web", web);
+        hashMap.put("email", email);
 
+databaseReference.child(userid).updateChildren(hashMap).addOnSuccessListener(new OnSuccessListener() {
+    @Override
+    public void onSuccess(Object o) {
 
-                transaction.update(sDoc, "name",name );
-                transaction.update(sDoc,"prof",prof);
-                transaction.update(sDoc,"email",email);
-                transaction.update(sDoc,"web",web);
-                transaction.update(sDoc,"bio",bio);
-
-
-                // Success
-                return null;
-            }
-        }).addOnSuccessListener(new OnSuccessListener<Void>() {
-            @Override
-            public void onSuccess(Void aVoid) {
-                Toast.makeText(UpdateProfile.this, "updated", Toast.LENGTH_SHORT).show();
-            }
-        })
-                .addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(UpdateProfile.this, "failed", Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-
-
+        Toast.makeText(UpdateProfile.this, "Updated Successfully",Toast.LENGTH_SHORT).show();
+    }
+}).addOnFailureListener(new OnFailureListener() {
+    @Override
+    public void onFailure(@NonNull Exception e) {
+        Toast.makeText(UpdateProfile.this, "Failed"+e.getMessage(),Toast.LENGTH_SHORT).show();
+    }
+});
 
     }
 

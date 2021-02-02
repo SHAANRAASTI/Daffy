@@ -47,7 +47,7 @@ public class CreateProfile extends AppCompatActivity {
     StorageReference storageReference;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference databaseReference;
-    FirebaseFirestore db = FirebaseFirestore.getInstance();
+    //FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     DocumentReference documentReference;
     private static final int PICK_IMAGE =1;
@@ -72,9 +72,9 @@ public class CreateProfile extends AppCompatActivity {
         currentUserId = user.getUid();
 
 
-        documentReference = db.collection("user").document(currentUserId);
+        //documentReference = db.collection("user").document(currentUserId);
         storageReference = FirebaseStorage.getInstance().getReference("Profile images");
-        databaseReference = database.getReference("All Users");
+        databaseReference = database.getReference("Users");
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -158,15 +158,15 @@ public class CreateProfile extends AppCompatActivity {
                         profile.put("uid",currentUserId);
                         profile.put("privacy","Public");
 
-                        member.setName(name);
+                      /*  member.setName(name);
                         member.setProf(prof);
                         member.setUid(currentUserId);
-                        member.setUrl(downloadUri.toString());
+                        member.setUrl(downloadUri.toString());*/
 
-                        databaseReference.child(currentUserId).setValue(member);
 
-                        documentReference.set(profile)
-                                .addOnSuccessListener(new OnSuccessListener<Void>() {
+
+                        //documentReference.set(profile)
+                        databaseReference.child(currentUserId).setValue(profile).addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void aVoid) {
 

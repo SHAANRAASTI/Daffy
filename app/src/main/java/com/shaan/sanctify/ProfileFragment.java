@@ -20,6 +20,7 @@ import androidx.fragment.app.Fragment;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,6 +52,8 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.HashMap;
 
 import static android.app.Activity.RESULT_OK;
@@ -63,6 +66,9 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
     ImageButton imageButtonEdit,imageButtonMenu;
     DocumentReference reference;
     FirebaseFirestore firestore;
+    FirebaseDatabase firebaseDatabase;
+    DatabaseReference databaseReference;
+    FirebaseUser user;
     String url;
     @Nullable
     @Override
@@ -77,12 +83,13 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        String userid = user.getUid();
+
 
         firestore = FirebaseFirestore.getInstance();
-        reference = firestore.collection("user").document(userid);
+        //reference = firestore.collection("user").document(userid);
 
+        firebaseDatabase = FirebaseDatabase.getInstance();
+        databaseReference = firebaseDatabase.getReference("Users");
 
 
         imageView = getActivity().findViewById(R.id.iv_f1);
@@ -137,10 +144,56 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
     public void onStart() {
         super.onStart();
 
+        user = FirebaseAuth.getInstance().getCurrentUser();
+        String userid = user.getUid();
 
-        reference.get()
-                .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-                    @Override
+        databaseReference.child(userid).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
+
+                if (dataSnapshot.exists()) {
+
+                    String nameResult = dataSnapshot.child("name").getValue().toString();
+                    String bioResult = dataSnapshot.child("bio").getValue().toString();
+                    String emailResult = dataSnapshot.child("email").getValue().toString();
+                    String webResult = dataSnapshot.child("web").getValue().toString();
+                    url = dataSnapshot.child("url").getValue().toString();
+                    String profResult = dataSnapshot.child("prof").getValue().toString();
+
+                    Picasso.get().load(url).into(imageView);
+                    nameEt.setText(nameResult);
+                    bioEt.setText(bioResult);
+                    emailEt.setText(emailResult);
+                    webEt.setText(webResult);
+                    profEt.setText(profResult);
+
+
+
+                }
+                else {
+                    Intent intent = new Intent(getActivity(), CreateProfile.class);
+                    startActivity(intent);
+                }
+
+
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // Failed to read value
+                Log.w("Failed to read value.", error.toException());
+            }
+        });
+
+
+    }
+
+
+}
+
+
+        /*@Override
                     public void onComplete(@NonNull Task<DocumentSnapshot> task) {
 
                         if (task.getResult().exists()){
@@ -165,10 +218,6 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
                             startActivity(intent);
                         }
                     }
-                });
+                });*/
 
 
-    }
-
-
-}

@@ -21,16 +21,19 @@ com/shaan/sanctify/BottomSheetMenu.java
  com.shaan.sanctify.BottomSheetMenu$6
 com/shaan/sanctify/BuildConfig.java
  com.shaan.sanctify.BuildConfig
-com/shaan/sanctify/DashboardActivity.java
- com.shaan.sanctify.DashboardActivity
- com.shaan.sanctify.DashboardActivity$1
-com/shaan/sanctify/UpdateProfile.java
- com.shaan.sanctify.UpdateProfile
- com.shaan.sanctify.UpdateProfile$1
- com.shaan.sanctify.UpdateProfile$2
- com.shaan.sanctify.UpdateProfile$3
- com.shaan.sanctify.UpdateProfile$4
- com.shaan.sanctify.UpdateProfile$5
+com/shaan/sanctify/PrivacyActivity.java
+ com.shaan.sanctify.PrivacyActivity
+ com.shaan.sanctify.PrivacyActivity$1
+ com.shaan.sanctify.PrivacyActivity$2
+ com.shaan.sanctify.PrivacyActivity$3
+ com.shaan.sanctify.PrivacyActivity$4
+ com.shaan.sanctify.PrivacyActivity$5
+com/shaan/sanctify/RegisterActivity.java
+ com.shaan.sanctify.RegisterActivity
+ com.shaan.sanctify.RegisterActivity$1
+ com.shaan.sanctify.RegisterActivity$2
+ com.shaan.sanctify.RegisterActivity$2$1
+ com.shaan.sanctify.RegisterActivity$3
 com/shaan/sanctify/LoginActivity.java
  com.shaan.sanctify.LoginActivity
  com.shaan.sanctify.LoginActivity$1
@@ -52,22 +55,6 @@ com/shaan/sanctify/ImageActivity.java
  com.shaan.sanctify.ImageActivity$1
  com.shaan.sanctify.ImageActivity$2
  com.shaan.sanctify.ImageActivity$3
-com/shaan/sanctify/PrivacyActivity.java
- com.shaan.sanctify.PrivacyActivity
- com.shaan.sanctify.PrivacyActivity$1
- com.shaan.sanctify.PrivacyActivity$2
- com.shaan.sanctify.PrivacyActivity$3
- com.shaan.sanctify.PrivacyActivity$4
- com.shaan.sanctify.PrivacyActivity$5
-com/shaan/sanctify/ProfileFragment.java
- com.shaan.sanctify.ProfileFragment
- com.shaan.sanctify.ProfileFragment$1
-com/shaan/sanctify/RegisterActivity.java
- com.shaan.sanctify.RegisterActivity
- com.shaan.sanctify.RegisterActivity$1
- com.shaan.sanctify.RegisterActivity$2
- com.shaan.sanctify.RegisterActivity$2$1
- com.shaan.sanctify.RegisterActivity$3
 com/shaan/sanctify/CreateProfile.java
  com.shaan.sanctify.CreateProfile
  com.shaan.sanctify.CreateProfile$1
@@ -76,3 +63,15 @@ com/shaan/sanctify/CreateProfile.java
  com.shaan.sanctify.CreateProfile$3$1
  com.shaan.sanctify.CreateProfile$3$1$1
  com.shaan.sanctify.CreateProfile$4
+com/shaan/sanctify/ProfileFragment.java
+ com.shaan.sanctify.ProfileFragment
+ com.shaan.sanctify.ProfileFragment$1
+com/shaan/sanctify/UpdateProfile.java
+ com.shaan.sanctify.UpdateProfile
+ com.shaan.sanctify.UpdateProfile$1
+ com.shaan.sanctify.UpdateProfile$2
+ com.shaan.sanctify.UpdateProfile$3
+ com.shaan.sanctify.UpdateProfile$4
+com/shaan/sanctify/DashboardActivity.java
+ com.shaan.sanctify.DashboardActivity
+ com.shaan.sanctify.DashboardActivity$1
