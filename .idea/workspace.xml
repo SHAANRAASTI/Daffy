@@ -18,17 +18,52 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Social_Impression.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Social_Impression.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/All_UserMmber.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/CreateProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/CreateProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ProfileFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/UpdateProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/UpdateProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/UsersFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/UsersFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +92,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -76,25 +112,18 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-30T18:51:19.031Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/SHAAN/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
     <property name="android-custom-viewD:/Sanctify/liquidswipe/src/main/java/com/jem/liquidswipe/LiquidSwipeViewPager.kt_SELECTED" value="LiquidSwipeViewPager" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tech kamal firebasefragment" />
+    <property name="multi-representation-previewC:/Users/SHAAN/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Sanctify/liquidswipe/src/main/java/com/jem/liquidswipe/LiquidSwipeViewPager.kt_selected" value="Custom views" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shaan.sanctify" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.shaan.sanctify" />
-    </key>
-    <key name="android.template.-1684572927">
-      <recent name="com.shaan.sanctify.splashscreen" />
-    </key>
-    <key name="android.template.757325021">
       <recent name="com.shaan.sanctify" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -103,6 +132,15 @@
       <recent name="D:\Sanctify\app\src\main\res\drawable-xxhdpi" />
       <recent name="D:\Sanctify\app\src\main\res\drawable-v24" />
       <recent name="D:\Sanctify\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-1684572927">
+      <recent name="com.shaan.sanctify.splashscreen" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shaan.sanctify" />
+    </key>
+    <key name="android.template.757325021">
+      <recent name="com.shaan.sanctify" />
     </key>
   </component>
   <component name="RunManager">
@@ -203,84 +241,92 @@
       <option name="project" value="LOCAL" />
       <updated>1612261508020</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Profile Activity with read &amp; update feature Implemented Successfully">
+      <created>1612287397542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612287397542</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SplashScreen Implemented Successfully." />
     <MESSAGE value="BottomNavigation with DashboardActivity Implemented Successfully" />
     <MESSAGE value="Profile Activity Implemented Sucessfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile Activity Implemented Sucessfully" />
+    <MESSAGE value="Profile Activity with read &amp; update feature Implemented Successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Profile Activity with read &amp; update feature Implemented Successfully" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1612277986314">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1612429770570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612277986314" />
-    <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612085394871">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612429770570" />
+    <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612434271956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1612085394871" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612026735180">
+    <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1612434271956" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612359854656">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612026735180" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612359854656" />
     <state x="439" y="141" key="AndroidCreateResourceDirectoryDialog" timestamp="1612021032287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="439" y="141" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1612021032287" />
-    <state x="526" y="191" key="AndroidCreateResourceFileDialog" timestamp="1612073732998">
+    <state x="526" y="191" key="AndroidCreateResourceFileDialog" timestamp="1612287909629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="191" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612073732998" />
+    <state x="526" y="191" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612287909629" />
     <state x="481" y="110" key="AndroidProcessChooserDialog" timestamp="1612153311850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="481" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1612153311850" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1612261478360">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1612287389058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612261478360" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612195721383">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612287389058" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612432066541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612195721383" />
-    <state width="1323" height="61" key="GridCell.Tab.0.bottom" timestamp="1612271682716">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612432066541" />
+    <state width="1323" height="284" key="GridCell.Tab.0.bottom" timestamp="1612433600604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="61" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612271682716" />
-    <state width="1323" height="61" key="GridCell.Tab.0.center" timestamp="1612271682716">
+    <state width="1323" height="284" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612433600604" />
+    <state width="1323" height="284" key="GridCell.Tab.0.center" timestamp="1612433600604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="61" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612271682716" />
-    <state width="1323" height="61" key="GridCell.Tab.0.left" timestamp="1612271682716">
+    <state width="1323" height="284" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612433600604" />
+    <state width="1323" height="284" key="GridCell.Tab.0.left" timestamp="1612433600604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="61" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612271682716" />
-    <state width="1323" height="61" key="GridCell.Tab.0.right" timestamp="1612271682716">
+    <state width="1323" height="284" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612433600604" />
+    <state width="1323" height="284" key="GridCell.Tab.0.right" timestamp="1612433600604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="61" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612271682716" />
-    <state width="1323" height="200" key="GridCell.Tab.1.bottom" timestamp="1612193345226">
+    <state width="1323" height="284" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612433600604" />
+    <state width="1323" height="378" key="GridCell.Tab.1.bottom" timestamp="1612433528413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="200" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612193345226" />
-    <state width="1323" height="200" key="GridCell.Tab.1.center" timestamp="1612193345226">
+    <state width="1323" height="378" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612433528413" />
+    <state width="1323" height="378" key="GridCell.Tab.1.center" timestamp="1612433528413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="200" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612193345226" />
-    <state width="1323" height="200" key="GridCell.Tab.1.left" timestamp="1612193345226">
+    <state width="1323" height="378" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612433528413" />
+    <state width="1323" height="378" key="GridCell.Tab.1.left" timestamp="1612433528413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="200" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612193345226" />
-    <state width="1323" height="200" key="GridCell.Tab.1.right" timestamp="1612193345226">
+    <state width="1323" height="378" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612433528413" />
+    <state width="1323" height="378" key="GridCell.Tab.1.right" timestamp="1612433528413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="200" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612193345226" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1612261616328">
+    <state width="1323" height="378" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612433528413" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1612287402337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612261616328" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612287402337" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612261301034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -289,10 +335,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="399" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1612034989790" />
-    <state width="380" height="45" key="javadoc.popup.new" timestamp="1612285287879">
+    <state width="380" height="45" key="javadoc.popup.new" timestamp="1612434931976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="380" height="45" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1612285287879" />
+    <state width="380" height="45" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1612434931976" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

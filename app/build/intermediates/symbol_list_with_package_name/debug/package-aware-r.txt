@@ -207,6 +207,10 @@ attr chipStyle
 attr chipSurfaceColor
 attr circleCrop
 attr circleRadius
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clickAction
 attr closeIcon
 attr closeIconEnabled
@@ -1666,6 +1670,7 @@ drawable ic_baseline_turned_in_not_24
 drawable ic_baseline_work_24
 drawable ic_bio
 drawable ic_comment
+drawable ic_default_img
 drawable ic_default_img_white
 drawable ic_dislike
 drawable ic_edit_white
@@ -1810,6 +1815,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
+id avatarIv
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1890,6 +1896,7 @@ id easeInOut
 id easeOut
 id edit_query
 id emailEt
+id emailIv
 id emailTIL
 id end
 id end_padder
@@ -2003,6 +2010,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nameIv
 id nav_home
 id nav_profile
 id nav_users
@@ -2178,6 +2186,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id users_recyclerView
 id v_circle
 id view_offset_helper
 id viewpager
@@ -2323,6 +2332,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_users
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3191,6 +3201,7 @@ styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCo
 styleable CellImageView meow_imageview_actionBackgroundAlpha meow_imageview_changeSize meow_imageview_color meow_imageview_fitImage meow_imageview_isAction meow_imageview_isBitmap meow_imageview_resource meow_imageview_size meow_imageview_useColor
 styleable Chip android_textAppearance android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance maxLines scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

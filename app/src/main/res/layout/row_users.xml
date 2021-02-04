@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    android:elevation="2dp"
+    app:cardBackgroundColor="@color/colorWhite"
+    android:padding="3dp"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarIv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_default_img"
+        android:layout_centerVertical="true"
+
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nameIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Person Name"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/emailIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Person Email"
+            android:textColor="@color/colorBlack"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

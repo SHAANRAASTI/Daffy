@@ -51,14 +51,14 @@ public class CreateProfile extends AppCompatActivity {
 
     DocumentReference documentReference;
     private static final int PICK_IMAGE =1;
-    All_UserMmber member;
+
     String currentUserId;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_profile);
 
-        member = new All_UserMmber();
+
         imageView = findViewById(R.id.iv_cp);
         etBio = findViewById(R.id.et_bio_cp);
         etEmail = findViewById(R.id.et_email_cp);
