@@ -37,114 +37,53 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-//new bottom navigation code
-       /* navigation = findViewById(R.id.bottom_navigation);
-        navigation.add(new MeowBottomNavigation.Model(1,R.drawable.ic_home));
-        navigation.add(new MeowBottomNavigation.Model(1,R.drawable.ic_account));
-        navigation.add(new MeowBottomNavigation.Model(1,R.drawable.ic_explore));
-
-        getSupportFragmentManager().beginTransaction().replace(R.id.root_container, new HomeFragment()).commit();
-        navigation.setOnClickMenuListener(new Function1<MeowBottomNavigation.Model, Unit>() {
-            @Override
-            public Unit invoke(MeowBottomNavigation.Model item) {
-                // YOUR CODES
-
-
-                return null;
-            }
-        });
-        navigation.setOnReselectListener(new Function1<MeowBottomNavigation.Model, Unit>() {
-            @Override
-            public Unit invoke(MeowBottomNavigation.Model item) {
-                // YOUR CODES
-
-
-                return null;
-            }
-        });
-
-        navigation.setOnShowListener(new Function1<MeowBottomNavigation.Model, Unit>() {
-            @Override
-            public Unit invoke(MeowBottomNavigation.Model item) {
-                // YOUR CODES
-                Fragment fragmentSelected = null;
-                switch ((item.getId()))
-                {
-                    case Home_ID:
-                        fragmentSelected = new HomeFragment();
-                        break;
-                    case PROFILE_ID:
-                        fragmentSelected = new HomeFragment();
-                        break;
-                    case USERS_ID:
-                        fragmentSelected = new HomeFragment();
-                        break;
-
-                }
-                getSupportFragmentManager().beginTransaction().replace(R.id.root_container,fragmentSelected).commit();
-
-                return null;
-            }
-        });
-
-/**/
-        //Actionbar and its title
-        actionBar = getSupportActionBar();
-        actionBar.setTitle("Profile");
 
         //init
         firebaseAuth = FirebaseAuth.getInstance();
         //bottom navigation
-        navigation = findViewById(R.id.bottom_navigation);
-        navigation.setOnNavigationItemSelectedListener(selectedListener);
+        navigation = findViewById(R.id.bottom_nav);
+        navigation.setOnNavigationItemSelectedListener(onNav);
         //home fragment transaction
-        actionBar.setTitle("Home"); //change actionbar title
-        HomeFragment fragment1 = new HomeFragment();
-        FragmentTransaction ft1 = getSupportFragmentManager().beginTransaction();
-        ft1.replace(R.id.root_container,fragment1,"");
-        ft1.commit();
+       // actionBar.setTitle("Home"); //change actionbar title
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout,
+                new Fragment4()).commit();
 
 
     }
-   private BottomNavigationView.OnNavigationItemSelectedListener selectedListener =
-            new BottomNavigationView.OnNavigationItemSelectedListener() {
-                @Override
-                public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                    //handle item clicks
-                    switch (menuItem.getItemId())
-                    {
-                        case R.id.nav_home:
-                            //home fragment transaction
-                            actionBar.setTitle("Home"); //change actionbar title
-                            HomeFragment fragment1 = new HomeFragment();
-                            FragmentTransaction ft1 = getSupportFragmentManager().beginTransaction();
-                            ft1.replace(R.id.root_container,fragment1,"");
-                            ft1.commit();
-                            return true;
-                        case R.id.nav_profile:
-                            //profile fragment transaction
-                            actionBar.setTitle("Profile"); //change actionbar title
-                            ProfileFragment fragment2 = new ProfileFragment();
-                            FragmentTransaction ft2 = getSupportFragmentManager().beginTransaction();
-                            ft2.replace(R.id.root_container,fragment2,"");
-                            ft2.commit();
-                            return true;
+   private BottomNavigationView.OnNavigationItemSelectedListener onNav =
+           item -> {
 
-                        case R.id.nav_users:
-                            //users fragment transaction
-                            actionBar.setTitle("Users"); //change actionbar title
-                            UsersFragment fragment3 = new UsersFragment();
-                            FragmentTransaction ft3 = getSupportFragmentManager().beginTransaction();
-                            ft3.replace(R.id.root_container,fragment3,"");
-                            ft3.commit();
-                            return true;
+               Fragment selected = null;
+               switch (item.getItemId()){
 
-                    }
-                    return false;
+                   case R.id.home_bottom:
+                       selected = new Fragment4();
+                       break;
 
-                }
-            };
-    private void checkUserStatus()
+                   case R.id.ask_bottom:
+                       selected = new Fragment2();
+                       break;
+
+                   case R.id.queue_bottom:
+                       selected = new Fragment3();
+                       break;
+
+
+                   case R.id.profile_bottom:
+                       selected = new Fragment1();
+                       break;
+
+               }
+
+               getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout,
+                       selected).commit();
+
+
+               return true;
+
+           };
+
+  /*  private void checkUserStatus()
     {
         FirebaseUser user = firebaseAuth.getCurrentUser();
     if(user != null)
@@ -173,25 +112,6 @@ public class DashboardActivity extends AppCompatActivity {
         checkUserStatus();
         super.onStart();
 
-    }
-    /*inflate options menu*/
+    }*/
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-    /* hndle menu item clicks*/
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
-        if(id == R.id.action_logout)
-        {
-        firebaseAuth.signOut();
-        checkUserStatus();
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }

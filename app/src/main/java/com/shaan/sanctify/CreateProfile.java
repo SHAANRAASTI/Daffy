@@ -74,7 +74,7 @@ public class CreateProfile extends AppCompatActivity {
 
         //documentReference = db.collection("user").document(currentUserId);
         storageReference = FirebaseStorage.getInstance().getReference("Profile images");
-        databaseReference = database.getReference("Users");
+        databaseReference = database.getReference("All Users");
 
 
         button.setOnClickListener(new View.OnClickListener() {

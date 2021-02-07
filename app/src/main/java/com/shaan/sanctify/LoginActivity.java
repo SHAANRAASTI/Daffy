@@ -58,12 +58,12 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        //Actionbar and its title
+      /*  //Actionbar and its title
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Login");
         // enable back button
         actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);*/
 
         //before mAuth
         //configure Google Sign In

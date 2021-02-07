@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="24"
         android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,19 +17,47 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
+        android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SocialImpression" >
-        <activity android:name="com.shaan.sanctify.ImageActivity" />
-        <activity android:name="com.shaan.sanctify.PrivacyActivity" />
-        <activity android:name="com.shaan.sanctify.UpdateProfile" />
-        <activity android:name="com.shaan.sanctify.CreateProfile" />
+        <activity
+            android:name="com.shaan.sanctify.PostActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.AnswerActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.ReplyActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.YourQuestions"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.Related"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.AskActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.ImageActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.PrivacyActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.UpdateProfile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.shaan.sanctify.CreateProfile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity android:name="com.shaan.sanctify.LoginActivity" />
         <activity android:name="com.shaan.sanctify.splashscreen.SplashScreen" />
-        <activity android:name="com.shaan.sanctify.DashboardActivity" />
+        <activity android:name="com.shaan.sanctify.DashboardActivity" >
+        </activity>
         <activity android:name="com.shaan.sanctify.RegisterActivity" />
         <activity android:name="com.shaan.sanctify.MainActivity" >
             <intent-filter>
@@ -38,6 +66,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.Transparent.Permission" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
@@ -146,6 +179,12 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.shaan.sanctify.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

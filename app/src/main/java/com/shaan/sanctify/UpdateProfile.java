@@ -35,7 +35,7 @@ public class UpdateProfile extends AppCompatActivity {
     Button button;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference databaseReference;
-    DocumentReference documentReference ;
+  //  DocumentReference documentReference ;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     FirebaseUser user;
 
@@ -44,7 +44,7 @@ public class UpdateProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_profile);
 
-        databaseReference = database.getReference("Users");
+        databaseReference = database.getReference("All Users");
 
         etBio = findViewById(R.id.et_bio_up);
         etEmail = findViewById(R.id.et_email_up);
