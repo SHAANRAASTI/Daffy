@@ -67,11 +67,12 @@ com/shaan/sanctify/RequestMember.java
 com/shaan/sanctify/Viewholder_Question.java
  com.shaan.sanctify.Viewholder_Question
  com.shaan.sanctify.Viewholder_Question$1
-com/shaan/sanctify/ImageActivity.java
- com.shaan.sanctify.ImageActivity
- com.shaan.sanctify.ImageActivity$1
- com.shaan.sanctify.ImageActivity$2
- com.shaan.sanctify.ImageActivity$3
+com/shaan/sanctify/UpdateProfile.java
+ com.shaan.sanctify.UpdateProfile
+ com.shaan.sanctify.UpdateProfile$1
+ com.shaan.sanctify.UpdateProfile$2
+ com.shaan.sanctify.UpdateProfile$3
+ com.shaan.sanctify.UpdateProfile$4
 com/shaan/sanctify/ReplyActivity.java
  com.shaan.sanctify.ReplyActivity
  com.shaan.sanctify.ReplyActivity$1
@@ -148,9 +149,19 @@ com/shaan/sanctify/ShowUser.java
  com.shaan.sanctify.ShowUser$7
  com.shaan.sanctify.ShowUser$8
  com.shaan.sanctify.ShowUser$9
-com/shaan/sanctify/Fragment1.java
- com.shaan.sanctify.Fragment1
- com.shaan.sanctify.Fragment1$1
+com/shaan/sanctify/BottomSheetMenu.java
+ com.shaan.sanctify.BottomSheetMenu
+ com.shaan.sanctify.BottomSheetMenu$1
+ com.shaan.sanctify.BottomSheetMenu$2
+ com.shaan.sanctify.BottomSheetMenu$3
+ com.shaan.sanctify.BottomSheetMenu$4
+ com.shaan.sanctify.BottomSheetMenu$4$1
+ com.shaan.sanctify.BottomSheetMenu$4$2
+ com.shaan.sanctify.BottomSheetMenu$4$2$1
+ com.shaan.sanctify.BottomSheetMenu$4$2$1$1
+ com.shaan.sanctify.BottomSheetMenu$4$2$1$2
+ com.shaan.sanctify.BottomSheetMenu$5
+ com.shaan.sanctify.BottomSheetMenu$6
 com/shaan/sanctify/Fragment4.java
  com.shaan.sanctify.Fragment4
  com.shaan.sanctify.Fragment4$1
@@ -179,22 +190,11 @@ com/shaan/sanctify/PrivacyActivity.java
  com.shaan.sanctify.PrivacyActivity$2
  com.shaan.sanctify.PrivacyActivity$3
  com.shaan.sanctify.PrivacyActivity$4
-com/shaan/sanctify/UpdateProfile.java
- com.shaan.sanctify.UpdateProfile
- com.shaan.sanctify.UpdateProfile$1
- com.shaan.sanctify.UpdateProfile$2
- com.shaan.sanctify.UpdateProfile$3
- com.shaan.sanctify.UpdateProfile$4
-com/shaan/sanctify/BottomSheetMenu.java
- com.shaan.sanctify.BottomSheetMenu
- com.shaan.sanctify.BottomSheetMenu$1
- com.shaan.sanctify.BottomSheetMenu$2
- com.shaan.sanctify.BottomSheetMenu$3
- com.shaan.sanctify.BottomSheetMenu$4
- com.shaan.sanctify.BottomSheetMenu$4$1
- com.shaan.sanctify.BottomSheetMenu$4$2
- com.shaan.sanctify.BottomSheetMenu$4$2$1
- com.shaan.sanctify.BottomSheetMenu$4$2$1$1
- com.shaan.sanctify.BottomSheetMenu$4$2$1$2
- com.shaan.sanctify.BottomSheetMenu$5
- com.shaan.sanctify.BottomSheetMenu$6
+com/shaan/sanctify/Fragment1.java
+ com.shaan.sanctify.Fragment1
+ com.shaan.sanctify.Fragment1$1
+com/shaan/sanctify/ImageActivity.java
+ com.shaan.sanctify.ImageActivity
+ com.shaan.sanctify.ImageActivity$1
+ com.shaan.sanctify.ImageActivity$2
+ com.shaan.sanctify.ImageActivity$3
