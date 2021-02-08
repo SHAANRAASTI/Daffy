@@ -1716,6 +1716,7 @@ drawable ic_add_image
 drawable ic_baseline_add_24
 drawable ic_baseline_add_photo_alternate_24
 drawable ic_baseline_bookmarks_24
+drawable ic_baseline_camera_alt_24
 drawable ic_baseline_category_24
 drawable ic_baseline_delete_24
 drawable ic_baseline_edit_24
@@ -1724,6 +1725,7 @@ drawable ic_baseline_home_24
 drawable ic_baseline_keyboard_arrow_left_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_menu_24
+drawable ic_baseline_mic_24
 drawable ic_baseline_people_24
 drawable ic_baseline_person_24
 drawable ic_baseline_power_settings_new_24
@@ -1742,6 +1744,7 @@ drawable ic_default_img_white
 drawable ic_dislike
 drawable ic_edit_white
 drawable ic_explore
+drawable ic_grey_search_24
 drawable ic_home
 drawable ic_home_black
 drawable ic_launcher_background
@@ -1758,6 +1761,7 @@ drawable ic_notification
 drawable ic_person
 drawable ic_profile_black
 drawable ic_send
+drawable ic_send_24
 drawable ic_users_black
 drawable lock_focused
 drawable material_ic_calendar_black_24dp
@@ -1790,6 +1794,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable receiver_back
+drawable search_back
+drawable send_back
+drawable sender_back
 drawable skip_icon
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1920,6 +1928,7 @@ id cardview_profile
 id center
 id center_horizontal
 id center_vertical
+id ch_itemprof_tv
 id chain
 id chains
 id checkbox
@@ -1936,7 +1945,6 @@ id clip_vertical
 id collapseActionView
 id commentbutton_posts
 id confirm_button
-id constraintLayout
 id container
 id content
 id contentPanel
@@ -2080,6 +2088,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButtonsend
 id imageView_ans
 id imageView_request
 id imageView_showprofile
@@ -2088,10 +2097,12 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id iv
+id iv_ch_item
 id iv_cp
 id iv_expand
 id iv_f1
 id iv_f2
+id iv_message
 id iv_post
 id iv_post_ind
 id iv_post_item
@@ -2120,6 +2131,7 @@ id lottie_layer_name
 id masked
 id media_actions
 id message
+id messageet
 id middle
 id mini
 id month_grid
@@ -2152,6 +2164,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id name_ch_item_tv
 id name_que_item_tv
 id name_reply_tv
 id name_tv_showprofile
@@ -2205,6 +2218,7 @@ id que_reply_tv
 id queue_bottom
 id radio
 id ratio
+id receiver_tv
 id recoverPassTv
 id rectangles
 id recylerview_profile
@@ -2231,8 +2245,10 @@ id right_side
 id rounded
 id row_index_key
 id rv_ans
+id rv_ch
 id rv_f2
 id rv_imagesTab
+id rv_message
 id rv_posts
 id rv_related
 id rv_videosTab
@@ -2256,10 +2272,13 @@ id search_go_btn
 id search_mag_icon
 id search_plate
 id search_src_text
+id search_user
 id search_voice_btn
 id section_label
 id select_dialog_listview
 id selected
+id send_messagech_item_btn
+id sender_tv
 id share_tv_post
 id shortcut
 id showCustom
@@ -2346,7 +2365,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tv_addstories_f1
 id tv_ans
 id tv_bio_f1
 id tv_comment_post
@@ -2376,7 +2394,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id users_recyclerView
+id username_messageTvTv
 id v_circle
 id viewUser_profile
 id view_offset_helper
@@ -2460,12 +2478,14 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_answer
 layout activity_ask
+layout activity_chat
 layout activity_create_profile
 layout activity_dashboard
 layout activity_image
 layout activity_individual_post
 layout activity_login
 layout activity_main
+layout activity_message
 layout activity_post
 layout activity_privacy
 layout activity_register
@@ -2478,6 +2498,7 @@ layout activity_your_questions
 layout ans_layout
 layout bottom_sheet_menu
 layout bottomsheet_f2
+layout chat_profile_item
 layout custom_dialog
 layout custom_exoplayer
 layout custom_exoplayeriv
@@ -2510,10 +2531,9 @@ layout fragment_dummy
 layout fragment_home
 layout fragment_individual_post
 layout fragment_main
-layout fragment_profile
-layout fragment_users
 layout images_tab
 layout meow_navigation_cell
+layout message_layout
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

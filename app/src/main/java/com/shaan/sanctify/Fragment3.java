@@ -148,7 +148,7 @@ public class Fragment3 extends Fragment {
 
 
         firebaseRecyclerAdapter1.startListening();
-//
+
         GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(),2, GridLayoutManager.VERTICAL,false);
         recyclerView_profile.setLayoutManager(gridLayoutManager);
         recyclerView_profile.setAdapter(firebaseRecyclerAdapter1);

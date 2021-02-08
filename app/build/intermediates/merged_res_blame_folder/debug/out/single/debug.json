@@ -8,6 +8,10 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-v24\\custom_email_input.xml"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_camera_alt_24.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\ic_baseline_camera_alt_24.xml"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
@@ -26,6 +30,14 @@
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_individual_post.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_individual_post.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_message_layout.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\message_layout.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black.png.flat",
@@ -88,16 +100,16 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-v24\\ic_baseline_delete_24.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_people_24.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\ic_baseline_people_24.xml"
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_email_24.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\ic_baseline_email_24.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_related.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_related.xml"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_email_24.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\ic_baseline_email_24.xml"
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_people_24.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\ic_baseline_people_24.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_send.png.flat",
@@ -106,6 +118,10 @@
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_chat_black.png.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\ic_chat_black.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_send_24.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\ic_send_24.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_email_24.xml.flat",
@@ -452,12 +468,20 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\lock_focused.xml"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_receiver_back.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-anydpi\\receiver_back.xml"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_individual_post.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_individual_post.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_menu.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\bottom_sheet_menu.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_sender_back.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-anydpi\\sender_back.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_image.png.flat",
@@ -528,8 +552,16 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-anydpi\\ic_default_img.xml"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_grey_search_24.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\ic_grey_search_24.xml"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bottom_sheet_lock.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-xxhdpi\\bottom_sheet_lock.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_back.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\search_back.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_edit_white.xml.flat",
@@ -556,6 +588,14 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_profile_item.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\chat_profile_item.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_message.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\activity_message.xml"
+    },
+    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_map.json.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\map.json"
     },
@@ -570,6 +610,10 @@
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_explore.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-v24\\ic_explore.xml"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_send_back.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\send_back.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black.png.flat",
@@ -594,10 +638,6 @@
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\raw_van.json.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\raw\\van.json"
-    },
-    {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_users.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_users.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_users_black.png.flat",
@@ -632,10 +672,6 @@
         "source": "D:\\Sanctify\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "D:\\Sanctify\\app\\src\\main\\res\\layout\\fragment_profile.xml"
-    },
-    {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_add_image.xml.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-anydpi\\ic_add_image.xml"
     },
@@ -658,6 +694,10 @@
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_users_black.png.flat",
         "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable-mdpi\\ic_users_black.png"
+    },
+    {
+        "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_mic_24.xml.flat",
+        "source": "D:\\Sanctify\\app\\src\\main\\res\\drawable\\ic_baseline_mic_24.xml"
     },
     {
         "merged": "D:\\Sanctify\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_person_24.xml.flat",

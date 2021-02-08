@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -35,15 +36,17 @@ import org.jetbrains.annotations.NotNull;
 public class Fragment1 extends Fragment implements View.OnClickListener{
 
     ImageView imageView;
-    TextView nameEt,profEt,bioEt,emailEt,webEt;
+    TextView nameEt,profEt,bioEt,emailEt,webEt,postTv,tv_followers_f1;
     ImageButton imageButtonEdit,imageButtonMenu;
     DocumentReference reference;
     FirebaseFirestore firestore;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
+    FirebaseAuth FirebaseAuth;
     FirebaseUser user;
-    FirebaseAuth firebaseAuth;
+    Button btn_sendmessage_f1;
     String url;
+
 
 
 
@@ -62,28 +65,34 @@ public class Fragment1 extends Fragment implements View.OnClickListener{
 
 
 
-        firestore = FirebaseFirestore.getInstance();
+       // firestore = FirebaseFirestore.getInstance();
         //reference = firestore.collection("user").document(userid);
 
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("All Users");
-
-
         imageView = getActivity().findViewById(R.id.iv_f1);
         nameEt = getActivity().findViewById(R.id.tv_name_f1);
         profEt = getActivity().findViewById(R.id.tv_prof_f1);
         bioEt = getActivity().findViewById(R.id.tv_bio_f1);
         emailEt = getActivity().findViewById(R.id.tv_email_f1);
         webEt = getActivity().findViewById(R.id.tv_web_f1);
+        postTv = getActivity().findViewById(R.id.tv_post_f1);
+      tv_followers_f1 = getActivity().findViewById(R.id.tv_followers_f1);
+        btn_sendmessage_f1 = getActivity().findViewById(R.id.btn_sendmessage_f1);
+
+
 
         imageButtonEdit = getActivity().findViewById(R.id.ib_edit_f1);
         imageButtonMenu = getActivity().findViewById(R.id.ib_menu_f1);
+        postTv.setOnClickListener(this);
+       tv_followers_f1.setOnClickListener(this);
 
 
         imageButtonMenu.setOnClickListener(this);
         imageButtonEdit.setOnClickListener(this);
         imageView.setOnClickListener(this);
         webEt.setOnClickListener(this);
+        btn_sendmessage_f1.setOnClickListener(this);
     }
 
 
@@ -103,6 +112,20 @@ public class Fragment1 extends Fragment implements View.OnClickListener{
                 Intent intent1 = new Intent(getActivity(),ImageActivity.class);
                 startActivity(intent1);
                 break;
+            case R.id.tv_post_f1:
+                Intent intent5 = new Intent(getActivity(),IndividualPost.class);
+                startActivity(intent5);
+                break;
+
+            case R.id.btn_sendmessage_f1:
+                Intent in = new Intent(getActivity(),ChatActivity.class);
+                startActivity(in);
+                break;
+           case R.id.tv_followers_f1:
+                Intent intent6 = new Intent(getActivity(),ShowUser.class);
+                startActivity(intent6);
+                break;
+
             case R.id.tv_web_f1:
                 try {
                     String url = webEt.getText().toString();
@@ -120,6 +143,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener{
     @Override
     public void onStart() {
         super.onStart();
+        checkUserStatus();
 
         user = FirebaseAuth.getInstance().getCurrentUser();
         String userid = user.getUid();
@@ -167,10 +191,11 @@ public class Fragment1 extends Fragment implements View.OnClickListener{
     }
 
 
-    private void checkUserStatus()
+   private void checkUserStatus()
 
     {
-        FirebaseUser user = firebaseAuth.getCurrentUser();
+
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if(user != null)
         {
             //user is signed  is stay here

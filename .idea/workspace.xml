@@ -18,15 +18,54 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ImageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ProfileViewholder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ProfileViewholder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_individual_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_individual_post.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_individual_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_individual_post.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +93,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
-        <option value="layoutResourceFile" />
-        <option value="Class" />
         <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -81,34 +120,37 @@
     <property name="android-custom-viewD:/Sanctify/liquidswipe/src/main/java/com/jem/liquidswipe/LiquidSwipeViewPager.kt_SELECTED" value="LiquidSwipeViewPager" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../socialapp_2020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Neomorphism" />
     <property name="multi-representation-previewC:/Users/SHAAN/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/SHAAN/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Sanctify/liquidswipe/src/main/java/com/jem/liquidswipe/LiquidSwipeViewPager.kt_selected" value="Custom views" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.-1827213846">
+      <recent name="com.shaan.sanctify" />
+    </key>
     <key name="android.template.-1684572927">
       <recent name="com.shaan.sanctify.splashscreen" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sanctify\app\src\main\res\drawable-anydpi" />
       <recent name="D:\Sanctify\app\src\main\res\layout" />
       <recent name="D:\Sanctify\app\src\main\java\com\shaan\sanctify" />
       <recent name="D:\Sanctify\app\src\main\res\drawable-v24" />
       <recent name="D:\Sanctify\app\src\main\res\menu" />
-      <recent name="D:\Sanctify\app\src\main\res\drawable-xxhdpi" />
     </key>
     <key name="android.template.-411541040">
+      <recent name="com.shaan.sanctify" />
+    </key>
+    <key name="android.template.757325021">
       <recent name="com.shaan.sanctify" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shaan.sanctify" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shaan.sanctify" />
-    </key>
-    <key name="android.template.757325021">
       <recent name="com.shaan.sanctify" />
     </key>
   </component>
@@ -231,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612670903762</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ImageActivity :- display im,age in full view is Implemented Successfully">
+      <created>1612671808776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612671808776</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,13 +290,14 @@
     <MESSAGE value="Profile Activity with read &amp; update feature Implemented Successfully" />
     <MESSAGE value="fragment_users Successfully fetched the required fields from firebase database and showing now to recyclerview" />
     <MESSAGE value="Post &amp; ask question feature implemented Successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post &amp; ask question feature implemented Successfully" />
+    <MESSAGE value="ImageActivity :- display im,age in full view is Implemented Successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="ImageActivity :- display im,age in full view is Implemented Successfully" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1612671220175">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1612724338762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612671220175" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612724338762" />
     <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612434271956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -256,62 +306,74 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612608704987" />
+    <state x="452" y="90" width="769" height="495" key="#xdebugger.XInspectDialog" timestamp="1612714536338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="452" y="90" width="769" height="495" key="#xdebugger.XInspectDialog/0.0.1366.728@0.0.1366.728" timestamp="1612714536338" />
     <state x="439" y="141" key="AndroidCreateResourceDirectoryDialog" timestamp="1612021032287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="439" y="141" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1612021032287" />
-    <state x="526" y="191" key="AndroidCreateResourceFileDialog" timestamp="1612467512476">
+    <state x="526" y="191" key="AndroidCreateResourceFileDialog" timestamp="1612724572998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="191" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612467512476" />
+    <state x="526" y="191" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612724572998" />
+    <state x="504" y="132" key="AndroidCreateXmlResourceDialog" timestamp="1612693639409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="504" y="132" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1612693639409" />
     <state x="481" y="110" key="AndroidProcessChooserDialog" timestamp="1612153311850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="481" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1612153311850" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1612670856860">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1612671802049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612670856860" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612623259039">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612671802049" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612786701094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612623259039" />
-    <state width="1323" height="189" key="GridCell.Tab.0.bottom" timestamp="1612614669532">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612786701094" />
+    <state width="1323" height="426" key="GridCell.Tab.0.bottom" timestamp="1612729500937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612614669532" />
-    <state width="1323" height="189" key="GridCell.Tab.0.center" timestamp="1612614669532">
+    <state width="1323" height="426" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
+    <state width="1323" height="426" key="GridCell.Tab.0.center" timestamp="1612729500935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612614669532" />
-    <state width="1323" height="189" key="GridCell.Tab.0.left" timestamp="1612614669531">
+    <state width="1323" height="426" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612729500935" />
+    <state width="1323" height="426" key="GridCell.Tab.0.left" timestamp="1612729500935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612614669531" />
-    <state width="1323" height="189" key="GridCell.Tab.0.right" timestamp="1612614669532">
+    <state width="1323" height="426" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612729500935" />
+    <state width="1323" height="426" key="GridCell.Tab.0.right" timestamp="1612729500937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612614669532" />
-    <state width="1323" height="245" key="GridCell.Tab.1.bottom" timestamp="1612511341494">
+    <state width="1323" height="426" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
+    <state width="1323" height="426" key="GridCell.Tab.1.bottom" timestamp="1612729500938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612511341494" />
-    <state width="1323" height="245" key="GridCell.Tab.1.center" timestamp="1612511341494">
+    <state width="1323" height="426" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612729500938" />
+    <state width="1323" height="426" key="GridCell.Tab.1.center" timestamp="1612729500937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612511341494" />
-    <state width="1323" height="245" key="GridCell.Tab.1.left" timestamp="1612511341494">
+    <state width="1323" height="426" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
+    <state width="1323" height="426" key="GridCell.Tab.1.left" timestamp="1612729500937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612511341494" />
-    <state width="1323" height="245" key="GridCell.Tab.1.right" timestamp="1612511341494">
+    <state width="1323" height="426" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
+    <state width="1323" height="426" key="GridCell.Tab.1.right" timestamp="1612729500937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612511341494" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1612670911919">
+    <state width="1323" height="426" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1612764549685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612670911919" />
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612764549685" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1612671812670">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612671812670" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612261301034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -320,17 +382,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="399" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1612034989790" />
-    <state width="380" height="45" key="javadoc.popup.new" timestamp="1612671319601">
+    <state width="380" height="45" key="javadoc.popup.new" timestamp="1612764311812">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="380" height="45" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1612671319601" />
+    <state width="380" height="45" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1612764311812" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1612626022651">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612626022651" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612626506629">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612764547619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612626506629" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612764547619" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -24,6 +24,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SocialImpression" >
+        <activity android:name="com.shaan.sanctify.MessageActivity" />
+        <activity android:name="com.shaan.sanctify.ChatActivity" />
         <activity
             android:name="com.shaan.sanctify.PostActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
@@ -56,8 +58,9 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity android:name="com.shaan.sanctify.LoginActivity" />
         <activity android:name="com.shaan.sanctify.splashscreen.SplashScreen" />
-        <activity android:name="com.shaan.sanctify.DashboardActivity" >
-        </activity>
+        <activity android:name="com.shaan.sanctify.IndividualPost" />
+        <activity android:name="com.shaan.sanctify.ShowUser" />
+        <activity android:name="com.shaan.sanctify.DashboardActivity" />
         <activity android:name="com.shaan.sanctify.RegisterActivity" />
         <activity android:name="com.shaan.sanctify.MainActivity" >
             <intent-filter>

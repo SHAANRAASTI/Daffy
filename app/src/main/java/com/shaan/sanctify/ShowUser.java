@@ -22,6 +22,8 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.squareup.picasso.Picasso;
 
+import org.jetbrains.annotations.NotNull;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,8 +35,8 @@ public class ShowUser extends AppCompatActivity {
 
     TextView nametv,professiontv,biotv,emailtv,websitetv,requesttv;
     ImageView imageView;
-    FirebaseDatabase database;
-    DatabaseReference databaseReference,databaseReference1,databaseReference2,postnoref,requestref;
+    FirebaseDatabase database, databaseprofileshow,databaseprofileshow1;
+    DatabaseReference databaseReference,databaseReference1,databaseReference2,postnoref,requestref,databaseReferenceprofileshow,databaseReferenceprofileshow1;
     TextView button,followers_tv,posts_tv;
     CardView followers_cv,posts_cd;
     String url,name,age,email,privacy,p,website,bio,userid;
@@ -54,7 +56,8 @@ public class ShowUser extends AppCompatActivity {
         setContentView(R.layout.activity_show_user);
 
 
-
+        databaseprofileshow = FirebaseDatabase.getInstance();
+        databaseprofileshow1 = FirebaseDatabase.getInstance();
         database = FirebaseDatabase.getInstance();
 
         requestMember = new RequestMember();
@@ -87,10 +90,13 @@ public class ShowUser extends AppCompatActivity {
 
         databaseReference = database.getReference("Requests").child(userid);
         databaseReference1 = database.getReference("followers").child(userid);
-        documentReference = db.collection("user").document(userid);
+        databaseReferenceprofileshow = databaseprofileshow.getReference("All Users").child(userid);
+        databaseReferenceprofileshow1 = databaseprofileshow1.getReference("All Users").child(currentUserId);
+       // documentReference = db.collection("user").document(userid);
+
         postnoref = database.getReference("User Posts").child(userid);
          databaseReference2  = database.getReference("followers");
-        documentReference1 = db.collection("user").document(currentUserId);
+       //documentReference1 = db.collection("user").document(currentUserId);
 
 
         postnoref.addValueEventListener(new ValueEventListener() {
@@ -139,19 +145,20 @@ public class ShowUser extends AppCompatActivity {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String currentUserId = user.getUid();
 
-        documentReference.get()
-                .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+        databaseReferenceprofileshow.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
 
-                        if (task.getResult().exists()){
-                            String name_result = task.getResult().getString("name");
-                            String age_result = task.getResult().getString("prof");
-                            String bio_result = task.getResult().getString("bio");
-                            String email_result = task.getResult().getString("email");
-                            String web_result = task.getResult().getString("web");
-                                String Url = task.getResult().getString("url");
-                               p = task.getResult().getString("privacy");
+                if (dataSnapshot.exists()) {
+
+                            String name_result = dataSnapshot.child("name").getValue().toString();
+                            String age_result = dataSnapshot.child("prof").getValue().toString();
+
+                            String bio_result = dataSnapshot.child("bio").getValue().toString();
+                            String email_result = dataSnapshot.child("email").getValue().toString();
+                            String web_result = dataSnapshot.child("web").getValue().toString();
+                            String Url = dataSnapshot.child("url").getValue().toString();
+                            p = dataSnapshot.child("privacy").getValue().toString();
 
 
                                if (p.equals("Public")){
@@ -193,36 +200,38 @@ public class ShowUser extends AppCompatActivity {
                             Toast.makeText(ShowUser.this, "No Profile exist", Toast.LENGTH_SHORT).show();
                         }
                     }
-                })
-                .addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
 
-                    }
-                });
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
 
-        documentReference1.get()
-                .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+            }
+        });
 
-                        if (task.getResult().exists()){
-                            namereq = task.getResult().getString("name");
-                            professionreq = task.getResult().getString("age");
-                            urlreq = task.getResult().getString("url");
+
+
+
+        databaseReferenceprofileshow1.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
+
+                if (dataSnapshot.exists()) {
+                        if (dataSnapshot.exists()){
+                            namereq = dataSnapshot.child("name").getValue().toString();
+                            professionreq = dataSnapshot.child("prof").getValue().toString();
+                            urlreq = dataSnapshot.child("url").getValue().toString();
 
 
                         }else {
                           //  Toast.makeText(ShowUser.this, "No Profile exist", Toast.LENGTH_SHORT).show();
                         }
                     }
-                })
-                .addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
+                }
 
-                    }
-                });
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
         // refernce for following
         databaseReference1.addValueEventListener(new ValueEventListener() {
             @Override
