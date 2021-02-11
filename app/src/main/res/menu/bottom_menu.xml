@@ -12,11 +12,15 @@
         app:showAsAction="always"
         android:id="@+id/ask_bottom"/>
 
-    <item android:title="Requests"
+    <item android:title="Users"
         android:icon="@drawable/ic_baseline_queue_24"
         app:showAsAction="always"
         android:id="@+id/queue_bottom"/>
 
+    <item android:title="Chat"
+        android:icon="@drawable/ic_chat_black"
+        app:showAsAction="always"
+        android:id="@+id/chat"/>
 
     <item android:title="Profile"
         android:icon="@drawable/ic_baseline_person_24"

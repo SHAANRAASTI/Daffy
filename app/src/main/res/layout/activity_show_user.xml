@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-        <androidx.cardview.widget.CardView
+        <soup.neumorphism.NeumorphCardView
             android:id="@+id/cardView"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -48,7 +48,7 @@
             <ImageView
                 android:id="@+id/imageView_showprofile"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="89dp"
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:clickable="true"
@@ -56,7 +56,7 @@
                 android:src="@drawable/ic_baseline_person_24"
                 tools:layout_editor_absoluteX="51dp"
                 tools:layout_editor_absoluteY="28dp" />
-        </androidx.cardview.widget.CardView>
+        </soup.neumorphism.NeumorphCardView>
 
 
         </LinearLayout>

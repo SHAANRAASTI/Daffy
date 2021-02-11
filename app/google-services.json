@@ -8,46 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:722747220153:android:e55cd77a3608e58faf3b68",
+        "mobilesdk_app_id": "1:722747220153:android:57c347985060ac8caf3b68",
         "android_client_info": {
-          "package_name": "com.cap.cheapstays"
+          "package_name": "com.shaan.daffy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "722747220153-3f6tcfm5mbdd7r3jtc040mhhn4ee6iqs.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDTJsj72qvaOlcbdzVaxxNnxrTwuO6P17o"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "722747220153-3f6tcfm5mbdd7r3jtc040mhhn4ee6iqs.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:722747220153:android:5a6ecdf8ca04c96daf3b68",
-        "android_client_info": {
-          "package_name": "com.shaan.sanctify"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "722747220153-2u9al1vlvirqal67ku58sm82v8f9e1nk.apps.googleusercontent.com",
+          "client_id": "722747220153-2ho9op2d5k83lan2gq7935hsr1f67am6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.shaan.sanctify",
+            "package_name": "com.shaan.daffy",
             "certificate_hash": "e258c12f4855fc0b8a5716a9b49e6e9bd5d89748"
           }
         },

@@ -14,6 +14,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b28f2451-99eb-4c94-8141-1cfb4d700626" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/shaan/daffy/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/AnsViewholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/AnswerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/AskActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/BottomSheetF2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/BottomSheetMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/ChatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/CreateProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/DashboardActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/Fragment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/Fragment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/Fragment3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/Fragment4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/ImageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/ImageTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/ImagesFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/IndividualPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/MessageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/MessageViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/PostActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/PostViewholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/PrivacyActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/ProfileViewholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/Related.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/ReplyActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/RequestViewholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/ShowUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/StoreisTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/UpdateProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/VideoTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/VideosFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/Viewholder_Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/YourQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/main/PageViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/main/PlaceholderFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/main/SectionsPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/models/All_UserMmber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/models/AnswerMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/models/MessageMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/models/ModelUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/models/Postmember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/models/QuestionMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/models/RequestMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/splashscreen/CustomFragmentPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/splashscreen/CustomPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/splashscreen/DataValues.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/splashscreen/DummyFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/daffy/splashscreen/SplashScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/shaan/daffy/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -25,47 +78,171 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Social_Impression.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Social_Impression.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/shaan/sanctify/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compatible_screen_manifest/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compatible_screen_manifest/debug/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/LoginActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/MainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/shaan/sanctify/RegisterActivity.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/BuildConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity$3.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity$4.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/LoginActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/MainActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity$3.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/shaan/sanctify/RegisterActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-night-v8_values-night-v8.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-night-v8_values-night-v8.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/shaan/sanctify/ExampleInstrumentedTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ProfileViewholder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ProfileViewholder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_individual_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_individual_post.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/All_UserMmber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/AnsViewholder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/AnswerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/AnswerMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/AskActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/BottomSheetF2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/BottomSheetMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ChatActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/CreateProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/DashboardActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Fragment4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/HomeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ImageActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ImageTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ImagesFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/IndividualPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/MessageActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/MessageMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/MessageViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/PostActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/PostViewholder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Postmember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/PrivacyActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ProfileViewholder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/QuestionMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/RegisterActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Related.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ReplyActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/RequestMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/RequestViewholder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/StoreisTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/UpdateProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/VideoTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/VideosFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/Viewholder_Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/YourQuestions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/main/PageViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/main/PlaceholderFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/main/SectionsPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/models/ModelUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/splashscreen/CustomFragmentPagerAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/splashscreen/CustomPagerAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/splashscreen/DataValues.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/splashscreen/DummyFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/splashscreen/SplashScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_chat_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_chat_black.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/receiver_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/receiver_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/custom_input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/custom_input.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/custom_input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/custom_input.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ask.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_image.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_post.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chat_profile_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chat_profile_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_individual_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_individual_post.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dummy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dummy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/message_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/post_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/post_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/request_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/request_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/nenu_nav.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/camera.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/luggage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/mountain.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/van.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/shaan/sanctify/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidswipe/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liquidswipe/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidswipe/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/liquidswipe/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidswipe/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/liquidswipe/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +258,28 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Social Impression" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Social Impression" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Social Impression" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -94,9 +290,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -106,7 +302,6 @@
   <component name="ProjectId" id="1nnHyngIWKKUkiv1xnbYBCIZJPi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -116,14 +311,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-viewC:/Users/SHAAN/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/SHAAN/.gradle/caches/modules-2/files-2.1/com.github.fornewid/neumorphism/0.3.0/6f977e65df15e6925791ca14e3370920e1459a6d/neumorphism-0.3.0-sources.jar!/soup/neumorphism/NeumorphCardView.kt_SELECTED" value="NeumorphCardView" />
     <property name="android-custom-viewC:/Users/SHAAN/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewC:/Users/SHAAN/AppData/Local/Android/Sdk/sources/android-29/android/widget/CheckBox.java_SELECTED" value="CheckBox" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/florent37/ShapeOfView.java_SELECTED" value="ShapeOfView" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/CircleButton.java_SELECTED" value="CircleButton" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/PolygonButton.java_SELECTED" value="PolygonButton" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/RectButton.java_SELECTED" value="RectButton" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/neo.java_SELECTED" value="neo" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/neoText.java_SELECTED" value="neoText" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/shapes/CircleView.java_SELECTED" value="CircleView" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/shapes/PolygonView.java_SELECTED" value="PolygonView" />
+    <property name="android-custom-viewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/shapes/RoundRectView.java_SELECTED" value="RoundRectView" />
     <property name="android-custom-viewD:/Sanctify/liquidswipe/src/main/java/com/jem/liquidswipe/LiquidSwipeViewPager.kt_SELECTED" value="LiquidSwipeViewPager" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Neomorphism" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="multi-representation-previewC:/Users/SHAAN/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/SHAAN/.gradle/caches/modules-2/files-2.1/com.github.fornewid/neumorphism/0.3.0/6f977e65df15e6925791ca14e3370920e1459a6d/neumorphism-0.3.0-sources.jar!/soup/neumorphism/NeumorphCardView.kt_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/SHAAN/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/SHAAN/AppData/Local/Android/Sdk/sources/android-29/android/widget/CheckBox.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/florent37/ShapeOfView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/CircleButton.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/PolygonButton.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/RectButton.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/neo.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/neoText.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/shapes/CircleView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/shapes/PolygonView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Sanctify/android_neumorphic/src/main/java/com/example/android_neumorphic/sshadkany/shapes/RoundRectView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Sanctify/liquidswipe/src/main/java/com/jem/liquidswipe/LiquidSwipeViewPager.kt_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.19844358" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -134,12 +355,12 @@
     <key name="android.template.-1684572927">
       <recent name="com.shaan.sanctify.splashscreen" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Sanctify\app\src\main\res\drawable-anydpi" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Sanctify\app\src\main\res\layout\neomorphism" />
       <recent name="D:\Sanctify\app\src\main\res\layout" />
-      <recent name="D:\Sanctify\app\src\main\java\com\shaan\sanctify" />
-      <recent name="D:\Sanctify\app\src\main\res\drawable-v24" />
-      <recent name="D:\Sanctify\app\src\main\res\menu" />
+    </key>
+    <key name="android.template.1600157723">
+      <recent name="com.shaan.sanctify" />
     </key>
     <key name="android.template.-411541040">
       <recent name="com.shaan.sanctify" />
@@ -150,11 +371,25 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shaan.sanctify" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sanctify\app\src\main\res\drawable" />
+      <recent name="D:\Sanctify\app\src\main\res\drawable-xhdpi" />
+      <recent name="D:\Sanctify\app\src\main\res\layout" />
+      <recent name="D:\Sanctify\app\src\main\res\menu" />
+      <recent name="D:\Sanctify\app\src\main\res\raw" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shaan.sanctify" />
+      <recent name="com.shaan.sanctify.neomorphism" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.android_neumorphic.sshadkany.shapes" />
+    </key>
+    <key name="android.template.1456235683">
       <recent name="com.shaan.sanctify" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -219,6 +454,30 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sanctify [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Sanctify [signingReport]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -280,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612671808776</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Chat Feature Implemented Successfully">
+      <created>1612790737789</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612790737789</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -291,33 +557,46 @@
     <MESSAGE value="fragment_users Successfully fetched the required fields from firebase database and showing now to recyclerview" />
     <MESSAGE value="Post &amp; ask question feature implemented Successfully" />
     <MESSAGE value="ImageActivity :- display im,age in full view is Implemented Successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="ImageActivity :- display im,age in full view is Implemented Successfully" />
+    <MESSAGE value="Chat Feature Implemented Successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat Feature Implemented Successfully" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1612724338762">
+    <state x="200" y="110" key="#PSD" timestamp="1612805123419">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612724338762" />
-    <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612434271956">
+    <state x="200" y="110" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1612805123419" />
+    <state x="431" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612964730489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1612434271956" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612608704987">
+    <state x="431" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1612964730489" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1612982909104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612608704987" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612982909104" />
+    <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1613026269977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="722" y="335" width="493" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1613026269977" />
+    <state x="385" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1612806901347">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="385" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1612806901347" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613024490186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613024490186" />
     <state x="452" y="90" width="769" height="495" key="#xdebugger.XInspectDialog" timestamp="1612714536338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="90" width="769" height="495" key="#xdebugger.XInspectDialog/0.0.1366.728@0.0.1366.728" timestamp="1612714536338" />
-    <state x="439" y="141" key="AndroidCreateResourceDirectoryDialog" timestamp="1612021032287">
+    <state x="439" y="141" key="AndroidCreateResourceDirectoryDialog" timestamp="1613018278704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="439" y="141" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1612021032287" />
-    <state x="526" y="191" key="AndroidCreateResourceFileDialog" timestamp="1612724572998">
+    <state x="439" y="141" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1613018278704" />
+    <state x="526" y="191" key="AndroidCreateResourceFileDialog" timestamp="1612879367763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="191" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612724572998" />
+    <state x="526" y="191" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612879367763" />
     <state x="504" y="132" key="AndroidCreateXmlResourceDialog" timestamp="1612693639409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -326,54 +605,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="481" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1612153311850" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1612671802049">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1612790714547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612671802049" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612786701094">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612790714547" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1613018715993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612786701094" />
-    <state width="1323" height="426" key="GridCell.Tab.0.bottom" timestamp="1612729500937">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613018715993" />
+    <state width="1323" height="450" key="GridCell.Tab.0.bottom" timestamp="1613025690181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="426" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
-    <state width="1323" height="426" key="GridCell.Tab.0.center" timestamp="1612729500935">
+    <state width="1323" height="450" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613025690181" />
+    <state width="1323" height="450" key="GridCell.Tab.0.center" timestamp="1613025690180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="426" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612729500935" />
-    <state width="1323" height="426" key="GridCell.Tab.0.left" timestamp="1612729500935">
+    <state width="1323" height="450" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613025690180" />
+    <state width="1323" height="450" key="GridCell.Tab.0.left" timestamp="1613025690180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="426" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612729500935" />
-    <state width="1323" height="426" key="GridCell.Tab.0.right" timestamp="1612729500937">
+    <state width="1323" height="450" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613025690180" />
+    <state width="1323" height="450" key="GridCell.Tab.0.right" timestamp="1613025690180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="426" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
-    <state width="1323" height="426" key="GridCell.Tab.1.bottom" timestamp="1612729500938">
+    <state width="1323" height="450" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613025690180" />
+    <state width="1323" height="123" key="GridCell.Tab.1.bottom" timestamp="1612890263140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="426" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612729500938" />
-    <state width="1323" height="426" key="GridCell.Tab.1.center" timestamp="1612729500937">
+    <state width="1323" height="123" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612890263140" />
+    <state width="1323" height="123" key="GridCell.Tab.1.center" timestamp="1612890263139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="426" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
-    <state width="1323" height="426" key="GridCell.Tab.1.left" timestamp="1612729500937">
+    <state width="1323" height="123" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612890263139" />
+    <state width="1323" height="123" key="GridCell.Tab.1.left" timestamp="1612890263139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="426" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
-    <state width="1323" height="426" key="GridCell.Tab.1.right" timestamp="1612729500937">
+    <state width="1323" height="123" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612890263139" />
+    <state width="1323" height="123" key="GridCell.Tab.1.right" timestamp="1612890263140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="426" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612729500937" />
+    <state width="1323" height="123" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612890263140" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1612764549685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612764549685" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1612671812670">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1612790747107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612671812670" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612790747107" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1613024562993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1613024562993" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612261301034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -382,33 +665,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="399" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1612034989790" />
-    <state width="380" height="45" key="javadoc.popup.new" timestamp="1612764311812">
+    <state width="380" height="45" key="javadoc.popup.new" timestamp="1613026312400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="380" height="45" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1612764311812" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1612626022651">
+    <state width="380" height="45" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1613026312400" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1612964545544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612626022651" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612764547619">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612964545544" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612807502185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612764547619" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java</url>
-          <line>169</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/shaan/sanctify/ShowUser.java</url>
-          <line>180</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612807502185" />
   </component>
 </project>

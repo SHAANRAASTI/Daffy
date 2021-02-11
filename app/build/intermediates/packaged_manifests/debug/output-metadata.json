@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.shaan.sanctify",
+  "applicationId": "com.shaan.daffy",
   "variantName": "debug",
   "elements": [
     {

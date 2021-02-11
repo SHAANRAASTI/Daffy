@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sanctify</string>
+    <string name="app_name">Daffy</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -8,4 +8,5 @@
     <string name="tab_text_1">Photos</string>
     <string name="tab_text_2">Videos</string>
     <string name="tab_text_3">Stories</string>
+    <string name="About_us">I am interested in getting exposure to domains providing intellectually challenging work in the field of computers for proving and enriching my knowledge and skills.</string>
 </resources>

@@ -9,19 +9,19 @@
     tools:context=".AskActivity">
 
     <EditText
+        android:id="@+id/ask_et_question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="20dp"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:id="@+id/ask_et_question"
-        android:background="@drawable/custom_input"
-        android:textStyle="bold"
-        android:hint="Ask Anything"
-        android:textColorHint="@color/red"
-        android:textColor="@android:color/black"
         android:layout_margin="20dp"
-        android:paddingLeft="20dp" />
+        android:background="@drawable/custom_input"
+        android:hint="Ask Anything"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/red"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="200dp"

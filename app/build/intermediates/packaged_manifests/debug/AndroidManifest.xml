@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shaan.sanctify"
+    package="com.shaan.daffy"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -24,50 +24,52 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SocialImpression" >
-        <activity android:name="com.shaan.sanctify.MessageActivity" />
-        <activity android:name="com.shaan.sanctify.ChatActivity" />
+        <activity android:name="com.shaan.daffy.MessageActivity" />
+        <activity android:name="com.shaan.daffy.ChatActivity" />
+        <activity android:name="com.shaan.daffy.AboutUs" />
         <activity
-            android:name="com.shaan.sanctify.PostActivity"
+            android:name="com.shaan.daffy.PostActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.AnswerActivity"
+            android:name="com.shaan.daffy.AnswerActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.ReplyActivity"
+            android:name="com.shaan.daffy.ReplyActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.YourQuestions"
+            android:name="com.shaan.daffy.YourQuestions"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.Related"
+            android:name="com.shaan.daffy.Related"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.AskActivity"
+            android:name="com.shaan.daffy.AskActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.ImageActivity"
+            android:name="com.shaan.daffy.ImageActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.PrivacyActivity"
+            android:name="com.shaan.daffy.PrivacyActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.UpdateProfile"
+            android:name="com.shaan.daffy.UpdateProfile"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.sanctify.CreateProfile"
+            android:name="com.shaan.daffy.CreateProfile"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name="com.shaan.sanctify.LoginActivity" />
-        <activity android:name="com.shaan.sanctify.splashscreen.SplashScreen" />
-        <activity android:name="com.shaan.sanctify.IndividualPost" />
-        <activity android:name="com.shaan.sanctify.ShowUser" />
-        <activity android:name="com.shaan.sanctify.DashboardActivity" />
-        <activity android:name="com.shaan.sanctify.RegisterActivity" />
-        <activity android:name="com.shaan.sanctify.MainActivity" >
+        <activity android:name="com.shaan.daffy.LoginActivity" />
+        <activity android:name="com.shaan.daffy.splashscreen.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.shaan.daffy.IndividualPost" />
+        <activity android:name="com.shaan.daffy.ShowUser" />
+        <activity android:name="com.shaan.daffy.DashboardActivity" />
+        <activity android:name="com.shaan.daffy.RegisterActivity" />
+        <activity android:name="com.shaan.daffy.MainActivity" >
         </activity>
         <activity
             android:name="com.gun0912.tedpermission.TedPermissionActivity"
@@ -77,7 +79,7 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.shaan.sanctify.com.squareup.picasso"
+            android:authorities="com.shaan.daffy.com.squareup.picasso"
             android:exported="false" />
 
         <activity
@@ -174,7 +176,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.shaan.sanctify.firebaseinitprovider"
+            android:authorities="com.shaan.daffy.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -185,7 +187,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.shaan.sanctify.lifecycle-process"
+            android:authorities="com.shaan.daffy.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

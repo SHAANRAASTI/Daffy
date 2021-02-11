@@ -6,14 +6,20 @@
     android:layout_height="match_parent"
     android:padding="20dp"
     tools:context=".MainActivity">
-<ImageView
-    android:layout_width="250dp"
-    android:layout_height="250dp"
-    android:src="@drawable/firebase"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="20dp"
-    />
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/s1" />
+
+
     <!--Button Register-->
+
+
 <Button
     android:id="@+id/register_btn"
     android:text="Register"
@@ -26,7 +32,7 @@
         android:id="@+id/login_btn"
         android:text="Login"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
