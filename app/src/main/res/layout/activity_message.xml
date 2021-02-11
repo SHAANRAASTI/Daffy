@@ -7,23 +7,25 @@
     tools:context=".MessageActivity">
 
     <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:orientation="horizontal"
         tools:ignore="MissingConstraints">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_vertical|right"
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
             app:cardPreventCornerOverlap="false"
             android:layout_marginLeft="20dp"
 
             app:cardCornerRadius="15dp">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
                 android:id="@+id/iv_message"
                 android:background="@drawable/ic_person"
                 android:clickable="true"
@@ -52,7 +54,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="50dp"
         android:id="@+id/rv_message"
 
@@ -72,7 +74,7 @@
     <EditText
         android:id="@+id/messageet"
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Enter message"
         android:textColor="@color/colorBlack"
         android:textColorHint="@color/red"
@@ -81,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageButtonsend"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
+  <!-- <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -103,7 +105,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/messageet"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

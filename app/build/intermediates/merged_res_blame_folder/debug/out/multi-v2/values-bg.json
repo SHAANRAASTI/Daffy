@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Sanctify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "D:\\Daffy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
                     "source": "C:\\Users\\SHAAN\\.gradle\\caches\\transforms-2\\files-2.1\\c2d4646b3b4c1acf73554aaf30844b5f\\jetified-play-services-base-17.1.0\\res\\values-bg\\values.xml",

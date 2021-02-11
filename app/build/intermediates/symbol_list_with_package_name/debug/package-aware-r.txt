@@ -1768,6 +1768,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable animation_background
+drawable app_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_custom_reply
@@ -2021,13 +2022,11 @@ id action_container
 id action_context_bar
 id action_divider
 id action_image
-id action_logout
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_search
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2786,7 +2785,6 @@ layout text_view_without_line_height
 layout videos_tab
 layout yourque_item
 menu bottom_menu
-menu menu_main
 menu top_navigation_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -2798,6 +2796,7 @@ raw s2
 raw s3
 raw s4
 raw s5
+string About_us
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2851,6 +2850,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string connect
 string default_web_client_id
 string error_icon_content_description
 string exo_controls_fastforward_description

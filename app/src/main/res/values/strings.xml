@@ -8,5 +8,14 @@
     <string name="tab_text_1">Photos</string>
     <string name="tab_text_2">Videos</string>
     <string name="tab_text_3">Stories</string>
-    <string name="About_us">I am interested in getting exposure to domains providing intellectually challenging work in the field of computers for proving and enriching my knowledge and skills.</string>
+    <string name="About_us">I am a Software Engineer, Passionate about developing cool projects 👍 in ********** DS and Algo ************* ***** Android App development *****
+        I am interested in getting exposure to domains providing intellectually challenging work in the field of computers for proving and enriching my knowledge and skills.
+    </string>
+    <string name="connect">
+
+        **** Modern UI with beautiful animations *** Users can love it 👍 *****
+        This app help to communicate to friends by mesaging, posting, videos and images.
+
+
+    </string>
 </resources>

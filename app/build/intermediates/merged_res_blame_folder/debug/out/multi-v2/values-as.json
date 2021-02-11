@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Sanctify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
+            "outputFile": "D:\\Daffy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\SHAAN\\.gradle\\caches\\transforms-2\\files-2.1\\c3364664c8448e7bd375fd2a65bd3d11\\core-1.3.2\\res\\values-as\\values-as.xml",

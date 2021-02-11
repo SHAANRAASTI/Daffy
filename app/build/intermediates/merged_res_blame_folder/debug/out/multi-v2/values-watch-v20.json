@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Sanctify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "D:\\Daffy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\SHAAN\\.gradle\\caches\\transforms-2\\files-2.1\\6ff5566e245895240138911f404231e9\\jetified-play-services-auth-19.0.0\\res\\values-watch-v20\\values.xml",

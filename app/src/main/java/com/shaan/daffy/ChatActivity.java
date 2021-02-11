@@ -58,7 +58,7 @@ public class ChatActivity extends AppCompatActivity {
 
                 FirebaseRecyclerOptions<All_UserMmber> options1 =
                         new FirebaseRecyclerOptions.Builder<All_UserMmber>()
-                                .setQuery(profileRef,All_UserMmber.class)
+                                .setQuery(search,All_UserMmber.class)
                                 .build();
                 FirebaseRecyclerAdapter<All_UserMmber,ProfileViewholder> firebaseRecyclerAdapter1 =
                         new FirebaseRecyclerAdapter<All_UserMmber, ProfileViewholder>(options1) {

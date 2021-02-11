@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Sanctify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "D:\\Daffy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\SHAAN\\.gradle\\caches\\transforms-2\\files-2.1\\5655e3fc5f49560096a16a3577c18b33\\material-1.2.1\\res\\values-small-v4\\values-small-v4.xml",
