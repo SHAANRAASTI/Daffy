@@ -2069,12 +2069,14 @@ id btn_del_iv
 id btn_edit_iv
 id btn_privacy
 id btn_requestshowprofile
+id btn_sendImage
 id btn_submit
 id btn_up
 id btn_uploadfile_post
 id buttonPanel
 id button_register
 id cache_measures
+id cam_sendmessage
 id cancel_action
 id cancel_button
 id cardView
@@ -2268,7 +2270,10 @@ id iv_post_ind
 id iv_post_item
 id iv_que_item
 id iv_que_user
+id iv_receiver
 id iv_reply_user
+id iv_sendImage
+id iv_sender
 id ivprofile_item
 id jumpToEnd
 id jumpToStart
@@ -2360,6 +2365,7 @@ id password_toggle
 id path
 id pathRelative
 id pb_post
+id pb_sendImage
 id peekHeight
 id percent
 id pin
@@ -2545,6 +2551,7 @@ id tv_bio_f1
 id tv_comment_post
 id tv_count
 id tv_desc_post
+id tv_dont
 id tv_email_f1
 id tv_likes_post
 id tv_name_ans
@@ -2667,6 +2674,7 @@ layout activity_privacy
 layout activity_register
 layout activity_related
 layout activity_reply
+layout activity_send_image
 layout activity_show_user
 layout activity_splashscreen
 layout activity_update_profile
@@ -2948,6 +2956,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string search_menu_title
+string send_image
 string skip_btn
 string status_bar_notification_info_overflow
 string tab_text_1

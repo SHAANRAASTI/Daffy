@@ -52,14 +52,15 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_message"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp"
         android:layout_marginBottom="50dp"
-        android:id="@+id/rv_message"
+        android:layout_marginTop="100dp"
 
-        />
-
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="100dp" />
 
     <ImageButton
         android:id="@+id/imageButtonsend"
@@ -73,7 +74,7 @@
 
     <EditText
         android:id="@+id/messageet"
-        android:layout_width="250dp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:hint="Enter message"
         android:textColor="@color/colorBlack"
@@ -83,29 +84,41 @@
         app:layout_constraintEnd_toEndOf="@+id/imageButtonsend"
         app:layout_constraintStart_toStartOf="parent" />
 
-  <!-- <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:background="@android:color/transparent"
-        android:padding="10dp"
-        android:src="@drawable/ic_baseline_camera_alt_24"
+
+    <LinearLayout
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:padding="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/messageet"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:background="@android:color/transparent"
-        android:padding="10dp"
-        android:src="@drawable/ic_baseline_mic_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/messageet"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />-->
+        tools:ignore="MissingConstraints">
 
 
+        <ImageButton
+            android:id="@+id/cam_sendmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_camera_alt_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/messageet"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_mic_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/messageet"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

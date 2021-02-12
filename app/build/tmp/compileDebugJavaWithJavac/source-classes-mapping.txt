@@ -1,5 +1,89 @@
 com/shaan/daffy/models/RequestMember.java
  com.shaan.daffy.models.RequestMember
+com/shaan/daffy/VideosFragment.java
+ com.shaan.daffy.VideosFragment
+com/shaan/daffy/models/ModelUser.java
+ com.shaan.daffy.models.ModelUser
+com/shaan/daffy/PostViewholder.java
+ com.shaan.daffy.PostViewholder
+ com.shaan.daffy.PostViewholder$1
+com/shaan/daffy/Fragment1.java
+ com.shaan.daffy.Fragment1
+ com.shaan.daffy.Fragment1$1
+com/shaan/daffy/BottomSheetF2.java
+ com.shaan.daffy.BottomSheetF2
+ com.shaan.daffy.BottomSheetF2$1
+ com.shaan.daffy.BottomSheetF2$2
+com/shaan/daffy/SendImage.java
+ com.shaan.daffy.SendImage
+ com.shaan.daffy.SendImage$1
+ com.shaan.daffy.SendImage$2
+ com.shaan.daffy.SendImage$3
+com/shaan/daffy/models/All_UserMmber.java
+ com.shaan.daffy.models.All_UserMmber
+com/shaan/daffy/LoginActivity.java
+ com.shaan.daffy.LoginActivity
+ com.shaan.daffy.LoginActivity$1
+ com.shaan.daffy.LoginActivity$10
+ com.shaan.daffy.LoginActivity$11
+ com.shaan.daffy.LoginActivity$12
+ com.shaan.daffy.LoginActivity$2
+ com.shaan.daffy.LoginActivity$3
+ com.shaan.daffy.LoginActivity$4
+ com.shaan.daffy.LoginActivity$5
+ com.shaan.daffy.LoginActivity$6
+ com.shaan.daffy.LoginActivity$7
+ com.shaan.daffy.LoginActivity$8
+ com.shaan.daffy.LoginActivity$9
+com/shaan/daffy/PostActivity.java
+ com.shaan.daffy.PostActivity
+ com.shaan.daffy.PostActivity$1
+ com.shaan.daffy.PostActivity$2
+ com.shaan.daffy.PostActivity$3
+ com.shaan.daffy.PostActivity$4
+ com.shaan.daffy.PostActivity$5
+com/shaan/daffy/IndividualPost.java
+ com.shaan.daffy.IndividualPost
+com/shaan/daffy/UpdateProfile.java
+ com.shaan.daffy.UpdateProfile
+ com.shaan.daffy.UpdateProfile$1
+ com.shaan.daffy.UpdateProfile$2
+ com.shaan.daffy.UpdateProfile$3
+ com.shaan.daffy.UpdateProfile$4
+com/shaan/daffy/AboutUs.java
+ com.shaan.daffy.AboutUs
+ com.shaan.daffy.AboutUs$1
+ com.shaan.daffy.AboutUs$2
+ com.shaan.daffy.AboutUs$3
+com/shaan/daffy/AskActivity.java
+ com.shaan.daffy.AskActivity
+ com.shaan.daffy.AskActivity$1
+ com.shaan.daffy.AskActivity$2
+com/shaan/daffy/AnsViewholder.java
+ com.shaan.daffy.AnsViewholder
+ com.shaan.daffy.AnsViewholder$1
+com/shaan/daffy/Fragment3.java
+ com.shaan.daffy.Fragment3
+ com.shaan.daffy.Fragment3$1
+ com.shaan.daffy.Fragment3$2
+ com.shaan.daffy.Fragment3$2$1
+ com.shaan.daffy.Fragment3$3
+ com.shaan.daffy.Fragment3$3$1
+ com.shaan.daffy.Fragment3$3$2
+ com.shaan.daffy.Fragment3$4
+com/shaan/daffy/Viewholder_Question.java
+ com.shaan.daffy.Viewholder_Question
+ com.shaan.daffy.Viewholder_Question$1
+com/shaan/daffy/models/MessageMember.java
+ com.shaan.daffy.models.MessageMember
+com/shaan/daffy/ImageTab.java
+ com.shaan.daffy.ImageTab
+ com.shaan.daffy.ImageTab$1
+com/shaan/daffy/main/SectionsPagerAdapter.java
+ com.shaan.daffy.main.SectionsPagerAdapter
+com/shaan/daffy/main/PlaceholderFragment.java
+ com.shaan.daffy.main.PlaceholderFragment
+ com.shaan.daffy.main.PlaceholderFragment$1
 com/shaan/daffy/ReplyActivity.java
  com.shaan.daffy.ReplyActivity
  com.shaan.daffy.ReplyActivity$1
@@ -12,8 +96,6 @@ com/shaan/daffy/Related.java
  com.shaan.daffy.Related
  com.shaan.daffy.Related$1
  com.shaan.daffy.Related$1$1
-com/shaan/daffy/VideosFragment.java
- com.shaan.daffy.VideosFragment
 com/shaan/daffy/models/Postmember.java
  com.shaan.daffy.models.Postmember
 com/shaan/daffy/DashboardActivity.java
@@ -33,16 +115,8 @@ com/shaan/daffy/Fragment4.java
  com.shaan.daffy.Fragment4$3$1
  com.shaan.daffy.Fragment4$4
  com.shaan.daffy.Fragment4$5
-com/shaan/daffy/models/ModelUser.java
- com.shaan.daffy.models.ModelUser
 com/shaan/daffy/RequestViewholder.java
  com.shaan.daffy.RequestViewholder
-com/shaan/daffy/PostViewholder.java
- com.shaan.daffy.PostViewholder
- com.shaan.daffy.PostViewholder$1
-com/shaan/daffy/Fragment1.java
- com.shaan.daffy.Fragment1
- com.shaan.daffy.Fragment1$1
 com/shaan/daffy/main/PageViewModel.java
  com.shaan.daffy.main.PageViewModel
  com.shaan.daffy.main.PageViewModel$1
@@ -67,10 +141,7 @@ com/shaan/daffy/MessageActivity.java
  com.shaan.daffy.MessageActivity
  com.shaan.daffy.MessageActivity$1
  com.shaan.daffy.MessageActivity$2
-com/shaan/daffy/BottomSheetF2.java
- com.shaan.daffy.BottomSheetF2
- com.shaan.daffy.BottomSheetF2$1
- com.shaan.daffy.BottomSheetF2$2
+ com.shaan.daffy.MessageActivity$3
 com/shaan/daffy/models/QuestionMember.java
  com.shaan.daffy.models.QuestionMember
 com/shaan/daffy/Fragment5.java
@@ -82,28 +153,12 @@ com/shaan/daffy/YourQuestions.java
  com.shaan.daffy.YourQuestions$1$1
  com.shaan.daffy.YourQuestions$2
  com.shaan.daffy.YourQuestions$3
-com/shaan/daffy/models/All_UserMmber.java
- com.shaan.daffy.models.All_UserMmber
 com/shaan/daffy/RegisterActivity.java
  com.shaan.daffy.RegisterActivity
  com.shaan.daffy.RegisterActivity$1
  com.shaan.daffy.RegisterActivity$2
  com.shaan.daffy.RegisterActivity$2$1
  com.shaan.daffy.RegisterActivity$3
-com/shaan/daffy/LoginActivity.java
- com.shaan.daffy.LoginActivity
- com.shaan.daffy.LoginActivity$1
- com.shaan.daffy.LoginActivity$10
- com.shaan.daffy.LoginActivity$11
- com.shaan.daffy.LoginActivity$12
- com.shaan.daffy.LoginActivity$2
- com.shaan.daffy.LoginActivity$3
- com.shaan.daffy.LoginActivity$4
- com.shaan.daffy.LoginActivity$5
- com.shaan.daffy.LoginActivity$6
- com.shaan.daffy.LoginActivity$7
- com.shaan.daffy.LoginActivity$8
- com.shaan.daffy.LoginActivity$9
 com/shaan/daffy/Fragment2.java
  com.shaan.daffy.Fragment2
  com.shaan.daffy.Fragment2$1
@@ -129,54 +184,15 @@ com/shaan/daffy/BottomSheetMenu.java
  com.shaan.daffy.BottomSheetMenu$4$2$1$2
  com.shaan.daffy.BottomSheetMenu$5
  com.shaan.daffy.BottomSheetMenu$6
-com/shaan/daffy/PostActivity.java
- com.shaan.daffy.PostActivity
- com.shaan.daffy.PostActivity$1
- com.shaan.daffy.PostActivity$2
- com.shaan.daffy.PostActivity$3
- com.shaan.daffy.PostActivity$4
- com.shaan.daffy.PostActivity$5
-com/shaan/daffy/IndividualPost.java
- com.shaan.daffy.IndividualPost
-com/shaan/daffy/UpdateProfile.java
- com.shaan.daffy.UpdateProfile
- com.shaan.daffy.UpdateProfile$1
- com.shaan.daffy.UpdateProfile$2
- com.shaan.daffy.UpdateProfile$3
- com.shaan.daffy.UpdateProfile$4
 com/shaan/daffy/ImageActivity.java
  com.shaan.daffy.ImageActivity
  com.shaan.daffy.ImageActivity$1
  com.shaan.daffy.ImageActivity$2
  com.shaan.daffy.ImageActivity$3
-com/shaan/daffy/AboutUs.java
- com.shaan.daffy.AboutUs
- com.shaan.daffy.AboutUs$1
- com.shaan.daffy.AboutUs$2
- com.shaan.daffy.AboutUs$3
-com/shaan/daffy/AskActivity.java
- com.shaan.daffy.AskActivity
- com.shaan.daffy.AskActivity$1
- com.shaan.daffy.AskActivity$2
 com/shaan/daffy/ProfileViewholder.java
  com.shaan.daffy.ProfileViewholder
 com/shaan/daffy/StoreisTab.java
  com.shaan.daffy.StoreisTab
-com/shaan/daffy/AnsViewholder.java
- com.shaan.daffy.AnsViewholder
- com.shaan.daffy.AnsViewholder$1
-com/shaan/daffy/Fragment3.java
- com.shaan.daffy.Fragment3
- com.shaan.daffy.Fragment3$1
- com.shaan.daffy.Fragment3$2
- com.shaan.daffy.Fragment3$2$1
- com.shaan.daffy.Fragment3$3
- com.shaan.daffy.Fragment3$3$1
- com.shaan.daffy.Fragment3$3$2
- com.shaan.daffy.Fragment3$4
-com/shaan/daffy/Viewholder_Question.java
- com.shaan.daffy.Viewholder_Question
- com.shaan.daffy.Viewholder_Question$1
 com/shaan/daffy/VideoTab.java
  com.shaan.daffy.VideoTab
  com.shaan.daffy.VideoTab$1
@@ -203,17 +219,7 @@ com/shaan/daffy/BuildConfig.java
  com.shaan.daffy.BuildConfig
 com/shaan/daffy/ImagesFragment.java
  com.shaan.daffy.ImagesFragment
-com/shaan/daffy/models/MessageMember.java
- com.shaan.daffy.models.MessageMember
-com/shaan/daffy/ImageTab.java
- com.shaan.daffy.ImageTab
- com.shaan.daffy.ImageTab$1
 com/shaan/daffy/MainActivity.java
  com.shaan.daffy.MainActivity
  com.shaan.daffy.MainActivity$1
  com.shaan.daffy.MainActivity$2
-com/shaan/daffy/main/SectionsPagerAdapter.java
- com.shaan.daffy.main.SectionsPagerAdapter
-com/shaan/daffy/main/PlaceholderFragment.java
- com.shaan.daffy.main.PlaceholderFragment
- com.shaan.daffy.main.PlaceholderFragment$1

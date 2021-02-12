@@ -1,11 +1,14 @@
 package com.shaan.daffy;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.icu.text.SimpleDateFormat;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +32,7 @@ import java.util.Calendar;
 
 public class MessageActivity extends AppCompatActivity {
 
+
     RecyclerView recyclerView;
     ImageView imageView;
     ImageButton sendbtn, cambtn,micbtn;
@@ -38,6 +42,9 @@ public class MessageActivity extends AppCompatActivity {
     DatabaseReference rootref1,rootref2;
     MessageMember messageMember;
     String receiver_name,receiver_uid,sender_uid,url;
+
+    Uri uri;
+    private static final int PICK_IMAGE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +65,7 @@ public class MessageActivity extends AppCompatActivity {
         }
         messageMember = new MessageMember();
         recyclerView = findViewById(R.id.rv_message);
+        cambtn = findViewById(R.id.cam_sendmessage);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(MessageActivity.this));
         imageView = findViewById(R.id.iv_message);
@@ -83,6 +91,43 @@ public class MessageActivity extends AppCompatActivity {
 
             }
         });
+        cambtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent();
+                intent.setType("image/*");
+                intent.setAction(Intent.ACTION_GET_CONTENT);
+                startActivityForResult(intent,PICK_IMAGE);
+
+            }
+        });
+
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+
+        if (requestCode == PICK_IMAGE || resultCode == RESULT_OK ||
+                data != null || data.getData() != null) {
+            uri = data.getData();
+
+            String url = uri.toString();
+            Intent intent = new Intent(MessageActivity.this, SendImage.class);
+            intent.putExtra("u",url);
+            intent.putExtra("n",receiver_name);
+            intent.putExtra("ruid",receiver_uid);
+            intent.putExtra("suid",sender_uid);
+            startActivity(intent);
+
+        }
+        else{
+
+            Toast.makeText(this, "No file selected",Toast.LENGTH_SHORT).show();
+        }
 
     }
 

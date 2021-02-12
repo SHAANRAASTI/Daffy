@@ -13,57 +13,53 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SocialImpression">
-
-        <activity android:name="com.shaan.daffy.MessageActivity" />
-        <activity android:name="com.shaan.daffy.ChatActivity" />
-        <activity android:name="com.shaan.daffy.AboutUs" />
+        <activity android:name=".SendImage"></activity>
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".AboutUs" />
         <activity
-            android:name="com.shaan.daffy.PostActivity"
+            android:name=".PostActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.AnswerActivity"
+            android:name=".AnswerActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.ReplyActivity"
+            android:name=".ReplyActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.YourQuestions"
+            android:name=".YourQuestions"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.Related"
+            android:name=".Related"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.AskActivity"
+            android:name=".AskActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.ImageActivity"
+            android:name=".ImageActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.PrivacyActivity"
+            android:name=".PrivacyActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.UpdateProfile"
+            android:name=".UpdateProfile"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="com.shaan.daffy.CreateProfile"
+            android:name=".CreateProfile"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name="com.shaan.daffy.LoginActivity" />
-        <activity android:name="com.shaan.daffy.splashscreen.SplashScreen" >
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".splashscreen.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name="com.shaan.daffy.IndividualPost" />
-        <activity android:name="com.shaan.daffy.ShowUser" />
-        <activity android:name="com.shaan.daffy.DashboardActivity" />
-        <activity android:name="com.shaan.daffy.RegisterActivity" />
-        <activity android:name="com.shaan.daffy.MainActivity">
-
-            </activity>
-
+        <activity android:name=".IndividualPost" />
+        <activity android:name=".ShowUser" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

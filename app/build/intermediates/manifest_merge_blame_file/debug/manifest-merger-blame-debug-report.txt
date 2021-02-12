@@ -24,7 +24,7 @@
 14-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\82363aa299899fffa857f4fe6832f712\jetified-firebase-auth-20.0.2\AndroidManifest.xml:24:22-76
 15
 16    <application
-16-->D:\Daffy\app\src\main\AndroidManifest.xml:9:5-67:19
+16-->D:\Daffy\app\src\main\AndroidManifest.xml:9:5-63:19
 17        android:allowBackup="true"
 17-->D:\Daffy\app\src\main\AndroidManifest.xml:10:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -42,108 +42,110 @@
 25        android:testOnly="true"
 26        android:theme="@style/Theme.SocialImpression" >
 26-->D:\Daffy\app\src\main\AndroidManifest.xml:15:9-54
-27        <activity android:name="com.shaan.daffy.MessageActivity" />
-27-->D:\Daffy\app\src\main\AndroidManifest.xml:17:9-68
-27-->D:\Daffy\app\src\main\AndroidManifest.xml:17:19-65
-28        <activity android:name="com.shaan.daffy.ChatActivity" />
-28-->D:\Daffy\app\src\main\AndroidManifest.xml:18:9-65
-28-->D:\Daffy\app\src\main\AndroidManifest.xml:18:19-62
-29        <activity android:name="com.shaan.daffy.AboutUs" />
-29-->D:\Daffy\app\src\main\AndroidManifest.xml:19:9-60
-29-->D:\Daffy\app\src\main\AndroidManifest.xml:19:19-57
-30        <activity
-30-->D:\Daffy\app\src\main\AndroidManifest.xml:20:9-22:75
-31            android:name="com.shaan.daffy.PostActivity"
-31-->D:\Daffy\app\src\main\AndroidManifest.xml:21:13-56
-32            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-32-->D:\Daffy\app\src\main\AndroidManifest.xml:22:13-72
-33        <activity
-33-->D:\Daffy\app\src\main\AndroidManifest.xml:23:9-25:75
-34            android:name="com.shaan.daffy.AnswerActivity"
-34-->D:\Daffy\app\src\main\AndroidManifest.xml:24:13-58
-35            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-35-->D:\Daffy\app\src\main\AndroidManifest.xml:25:13-72
-36        <activity
-36-->D:\Daffy\app\src\main\AndroidManifest.xml:26:9-28:75
-37            android:name="com.shaan.daffy.ReplyActivity"
-37-->D:\Daffy\app\src\main\AndroidManifest.xml:27:13-57
-38            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-38-->D:\Daffy\app\src\main\AndroidManifest.xml:28:13-72
-39        <activity
-39-->D:\Daffy\app\src\main\AndroidManifest.xml:29:9-31:75
-40            android:name="com.shaan.daffy.YourQuestions"
-40-->D:\Daffy\app\src\main\AndroidManifest.xml:30:13-57
-41            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-41-->D:\Daffy\app\src\main\AndroidManifest.xml:31:13-72
-42        <activity
-42-->D:\Daffy\app\src\main\AndroidManifest.xml:32:9-34:75
-43            android:name="com.shaan.daffy.Related"
-43-->D:\Daffy\app\src\main\AndroidManifest.xml:33:13-51
-44            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-44-->D:\Daffy\app\src\main\AndroidManifest.xml:34:13-72
-45        <activity
-45-->D:\Daffy\app\src\main\AndroidManifest.xml:35:9-37:75
-46            android:name="com.shaan.daffy.AskActivity"
-46-->D:\Daffy\app\src\main\AndroidManifest.xml:36:13-55
-47            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-47-->D:\Daffy\app\src\main\AndroidManifest.xml:37:13-72
-48        <activity
-48-->D:\Daffy\app\src\main\AndroidManifest.xml:38:9-40:75
-49            android:name="com.shaan.daffy.ImageActivity"
-49-->D:\Daffy\app\src\main\AndroidManifest.xml:39:13-57
-50            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-50-->D:\Daffy\app\src\main\AndroidManifest.xml:40:13-72
-51        <activity
-51-->D:\Daffy\app\src\main\AndroidManifest.xml:41:9-43:75
-52            android:name="com.shaan.daffy.PrivacyActivity"
-52-->D:\Daffy\app\src\main\AndroidManifest.xml:42:13-59
-53            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-53-->D:\Daffy\app\src\main\AndroidManifest.xml:43:13-72
-54        <activity
-54-->D:\Daffy\app\src\main\AndroidManifest.xml:44:9-46:75
-55            android:name="com.shaan.daffy.UpdateProfile"
-55-->D:\Daffy\app\src\main\AndroidManifest.xml:45:13-57
-56            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-56-->D:\Daffy\app\src\main\AndroidManifest.xml:46:13-72
-57        <activity
-57-->D:\Daffy\app\src\main\AndroidManifest.xml:47:9-49:75
-58            android:name="com.shaan.daffy.CreateProfile"
-58-->D:\Daffy\app\src\main\AndroidManifest.xml:48:13-57
-59            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-59-->D:\Daffy\app\src\main\AndroidManifest.xml:49:13-72
-60        <activity android:name="com.shaan.daffy.LoginActivity" />
-60-->D:\Daffy\app\src\main\AndroidManifest.xml:50:9-66
-60-->D:\Daffy\app\src\main\AndroidManifest.xml:50:19-63
-61        <activity android:name="com.shaan.daffy.splashscreen.SplashScreen" >
-61-->D:\Daffy\app\src\main\AndroidManifest.xml:51:9-58:20
-61-->D:\Daffy\app\src\main\AndroidManifest.xml:51:19-75
-62            <intent-filter>
-62-->D:\Daffy\app\src\main\AndroidManifest.xml:52:13-56:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->D:\Daffy\app\src\main\AndroidManifest.xml:53:17-69
-63-->D:\Daffy\app\src\main\AndroidManifest.xml:53:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->D:\Daffy\app\src\main\AndroidManifest.xml:55:17-77
-65-->D:\Daffy\app\src\main\AndroidManifest.xml:55:27-74
-66            </intent-filter>
-67        </activity>
-68        <activity android:name="com.shaan.daffy.IndividualPost" />
-68-->D:\Daffy\app\src\main\AndroidManifest.xml:59:9-67
-68-->D:\Daffy\app\src\main\AndroidManifest.xml:59:19-64
-69        <activity android:name="com.shaan.daffy.ShowUser" />
-69-->D:\Daffy\app\src\main\AndroidManifest.xml:60:9-61
-69-->D:\Daffy\app\src\main\AndroidManifest.xml:60:19-58
-70        <activity android:name="com.shaan.daffy.DashboardActivity" />
-70-->D:\Daffy\app\src\main\AndroidManifest.xml:61:9-70
-70-->D:\Daffy\app\src\main\AndroidManifest.xml:61:19-67
-71        <activity android:name="com.shaan.daffy.RegisterActivity" />
-71-->D:\Daffy\app\src\main\AndroidManifest.xml:62:9-69
-71-->D:\Daffy\app\src\main\AndroidManifest.xml:62:19-66
-72        <activity android:name="com.shaan.daffy.MainActivity" >
-72-->D:\Daffy\app\src\main\AndroidManifest.xml:63:9-65:24
-72-->D:\Daffy\app\src\main\AndroidManifest.xml:63:19-62
-73        </activity>
+27        <activity android:name="com.shaan.daffy.SendImage" />
+27-->D:\Daffy\app\src\main\AndroidManifest.xml:16:9-56
+27-->D:\Daffy\app\src\main\AndroidManifest.xml:16:19-44
+28        <activity android:name="com.shaan.daffy.MessageActivity" />
+28-->D:\Daffy\app\src\main\AndroidManifest.xml:17:9-53
+28-->D:\Daffy\app\src\main\AndroidManifest.xml:17:19-50
+29        <activity android:name="com.shaan.daffy.ChatActivity" />
+29-->D:\Daffy\app\src\main\AndroidManifest.xml:18:9-50
+29-->D:\Daffy\app\src\main\AndroidManifest.xml:18:19-47
+30        <activity android:name="com.shaan.daffy.AboutUs" />
+30-->D:\Daffy\app\src\main\AndroidManifest.xml:19:9-45
+30-->D:\Daffy\app\src\main\AndroidManifest.xml:19:19-42
+31        <activity
+31-->D:\Daffy\app\src\main\AndroidManifest.xml:20:9-22:75
+32            android:name="com.shaan.daffy.PostActivity"
+32-->D:\Daffy\app\src\main\AndroidManifest.xml:21:13-41
+33            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+33-->D:\Daffy\app\src\main\AndroidManifest.xml:22:13-72
+34        <activity
+34-->D:\Daffy\app\src\main\AndroidManifest.xml:23:9-25:75
+35            android:name="com.shaan.daffy.AnswerActivity"
+35-->D:\Daffy\app\src\main\AndroidManifest.xml:24:13-43
+36            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+36-->D:\Daffy\app\src\main\AndroidManifest.xml:25:13-72
+37        <activity
+37-->D:\Daffy\app\src\main\AndroidManifest.xml:26:9-28:75
+38            android:name="com.shaan.daffy.ReplyActivity"
+38-->D:\Daffy\app\src\main\AndroidManifest.xml:27:13-42
+39            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+39-->D:\Daffy\app\src\main\AndroidManifest.xml:28:13-72
+40        <activity
+40-->D:\Daffy\app\src\main\AndroidManifest.xml:29:9-31:75
+41            android:name="com.shaan.daffy.YourQuestions"
+41-->D:\Daffy\app\src\main\AndroidManifest.xml:30:13-42
+42            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+42-->D:\Daffy\app\src\main\AndroidManifest.xml:31:13-72
+43        <activity
+43-->D:\Daffy\app\src\main\AndroidManifest.xml:32:9-34:75
+44            android:name="com.shaan.daffy.Related"
+44-->D:\Daffy\app\src\main\AndroidManifest.xml:33:13-36
+45            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+45-->D:\Daffy\app\src\main\AndroidManifest.xml:34:13-72
+46        <activity
+46-->D:\Daffy\app\src\main\AndroidManifest.xml:35:9-37:75
+47            android:name="com.shaan.daffy.AskActivity"
+47-->D:\Daffy\app\src\main\AndroidManifest.xml:36:13-40
+48            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+48-->D:\Daffy\app\src\main\AndroidManifest.xml:37:13-72
+49        <activity
+49-->D:\Daffy\app\src\main\AndroidManifest.xml:38:9-40:75
+50            android:name="com.shaan.daffy.ImageActivity"
+50-->D:\Daffy\app\src\main\AndroidManifest.xml:39:13-42
+51            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+51-->D:\Daffy\app\src\main\AndroidManifest.xml:40:13-72
+52        <activity
+52-->D:\Daffy\app\src\main\AndroidManifest.xml:41:9-43:75
+53            android:name="com.shaan.daffy.PrivacyActivity"
+53-->D:\Daffy\app\src\main\AndroidManifest.xml:42:13-44
+54            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+54-->D:\Daffy\app\src\main\AndroidManifest.xml:43:13-72
+55        <activity
+55-->D:\Daffy\app\src\main\AndroidManifest.xml:44:9-46:75
+56            android:name="com.shaan.daffy.UpdateProfile"
+56-->D:\Daffy\app\src\main\AndroidManifest.xml:45:13-42
+57            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+57-->D:\Daffy\app\src\main\AndroidManifest.xml:46:13-72
+58        <activity
+58-->D:\Daffy\app\src\main\AndroidManifest.xml:47:9-49:75
+59            android:name="com.shaan.daffy.CreateProfile"
+59-->D:\Daffy\app\src\main\AndroidManifest.xml:48:13-42
+60            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+60-->D:\Daffy\app\src\main\AndroidManifest.xml:49:13-72
+61        <activity android:name="com.shaan.daffy.LoginActivity" />
+61-->D:\Daffy\app\src\main\AndroidManifest.xml:50:9-51
+61-->D:\Daffy\app\src\main\AndroidManifest.xml:50:19-48
+62        <activity android:name="com.shaan.daffy.splashscreen.SplashScreen" >
+62-->D:\Daffy\app\src\main\AndroidManifest.xml:51:9-57:20
+62-->D:\Daffy\app\src\main\AndroidManifest.xml:51:19-60
+63            <intent-filter>
+63-->D:\Daffy\app\src\main\AndroidManifest.xml:52:13-56:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->D:\Daffy\app\src\main\AndroidManifest.xml:53:17-69
+64-->D:\Daffy\app\src\main\AndroidManifest.xml:53:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->D:\Daffy\app\src\main\AndroidManifest.xml:55:17-77
+66-->D:\Daffy\app\src\main\AndroidManifest.xml:55:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity android:name="com.shaan.daffy.IndividualPost" />
+69-->D:\Daffy\app\src\main\AndroidManifest.xml:58:9-52
+69-->D:\Daffy\app\src\main\AndroidManifest.xml:58:19-49
+70        <activity android:name="com.shaan.daffy.ShowUser" />
+70-->D:\Daffy\app\src\main\AndroidManifest.xml:59:9-46
+70-->D:\Daffy\app\src\main\AndroidManifest.xml:59:19-43
+71        <activity android:name="com.shaan.daffy.DashboardActivity" />
+71-->D:\Daffy\app\src\main\AndroidManifest.xml:60:9-55
+71-->D:\Daffy\app\src\main\AndroidManifest.xml:60:19-52
+72        <activity android:name="com.shaan.daffy.RegisterActivity" />
+72-->D:\Daffy\app\src\main\AndroidManifest.xml:61:9-54
+72-->D:\Daffy\app\src\main\AndroidManifest.xml:61:19-51
+73        <activity android:name="com.shaan.daffy.MainActivity" />
+73-->D:\Daffy\app\src\main\AndroidManifest.xml:62:9-59
+73-->D:\Daffy\app\src\main\AndroidManifest.xml:62:19-47
 74        <activity
 74-->[gun0912.ted:tedpermission:2.2.2] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\321a82cdc48e161d4fe5f4b03924c7b2\jetified-tedpermission-2.2.2\AndroidManifest.xml:10:9-14:67
 75            android:name="com.gun0912.tedpermission.TedPermissionActivity"

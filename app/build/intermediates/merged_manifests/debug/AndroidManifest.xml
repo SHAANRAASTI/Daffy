@@ -24,6 +24,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SocialImpression" >
+        <activity android:name="com.shaan.daffy.SendImage" />
         <activity android:name="com.shaan.daffy.MessageActivity" />
         <activity android:name="com.shaan.daffy.ChatActivity" />
         <activity android:name="com.shaan.daffy.AboutUs" />
@@ -69,8 +70,7 @@
         <activity android:name="com.shaan.daffy.ShowUser" />
         <activity android:name="com.shaan.daffy.DashboardActivity" />
         <activity android:name="com.shaan.daffy.RegisterActivity" />
-        <activity android:name="com.shaan.daffy.MainActivity" >
-        </activity>
+        <activity android:name="com.shaan.daffy.MainActivity" />
         <activity
             android:name="com.gun0912.tedpermission.TedPermissionActivity"
             android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
