@@ -8,7 +8,11 @@ This app help to communicate to friends by messaging, posting, videos and images
 
 ### Current build 
 
-The latest app version is available on [Google Play](https://)
+The latest app version is available 
+
+<a href="https://play.google."><img alt="Get it on Google Play" height="80" src="/Screenshots/google-play-badge.png"></a>
+
+
 
  <!-- ### Full showcase of application -->
 
