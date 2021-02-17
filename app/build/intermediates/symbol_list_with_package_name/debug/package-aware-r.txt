@@ -2062,6 +2062,7 @@ id blocking
 id bottom
 id bottom_nav
 id bounce
+id btn
 id btn_answer_submit
 id btn_choosefile_post
 id btn_cp
@@ -2513,6 +2514,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView11
 id textView13
 id textView14
@@ -2664,6 +2666,7 @@ layout activity_ask
 layout activity_chat
 layout activity_create_profile
 layout activity_dashboard
+layout activity_example
 layout activity_image
 layout activity_individual_post
 layout activity_login

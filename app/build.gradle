@@ -74,7 +74,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:22.0.2'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-
+// RxJava2 Dependencies
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
     testImplementation 'junit:junit:4.+'
    // implementation 'com.github.SimformSolutionsPvtLtd:SSAndroidNeumorphicKit:1.0.0'
     def lottieVersion = "3.4.0"

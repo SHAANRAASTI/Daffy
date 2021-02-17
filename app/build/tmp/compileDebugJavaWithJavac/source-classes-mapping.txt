@@ -19,6 +19,8 @@ com/shaan/daffy/SendImage.java
  com.shaan.daffy.SendImage$1
  com.shaan.daffy.SendImage$2
  com.shaan.daffy.SendImage$3
+com/shaan/daffy/OfflineSupport.java
+ com.shaan.daffy.OfflineSupport
 com/shaan/daffy/models/All_UserMmber.java
  com.shaan.daffy.models.All_UserMmber
 com/shaan/daffy/LoginActivity.java

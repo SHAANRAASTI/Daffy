@@ -780,6 +780,10 @@
         "source": "D:\\Daffy\\app\\src\\main\\res\\drawable-v24\\ic_person.xml"
     },
     {
+        "merged": "D:\\Daffy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_example.xml.flat",
+        "source": "D:\\Daffy\\app\\src\\main\\res\\layout\\activity_example.xml"
+    },
+    {
         "merged": "D:\\Daffy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_post.xml.flat",
         "source": "D:\\Daffy\\app\\src\\main\\res\\layout\\activity_post.xml"
     },
