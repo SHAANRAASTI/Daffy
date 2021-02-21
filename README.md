@@ -27,15 +27,15 @@ Implemented elements and features:
 
 * Hiding Toolbar when the post list is scrolling down and showing it again when it’s scrolling up.
 * RecyclerView with CardViews
-* Float Action Button
-* Snack Bar for messages
-* Refresh a screen
-* Loading posts by parts (Progress bar in the bottom of the screen for loading the next portion of posts)
+
+
+### Main screen
 
 ![main_screen-part1](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/post1.gif)
 
 
 ---
+
 ![main_screen-part2](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/post2.gif)
 
 ---
@@ -52,7 +52,19 @@ Implemented elements and effects:
 
 * Email Password Sign-In
 
-![login_screen-email & pass](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/google.gif)
+![login_screen-email & pass](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/login.gif)
+
+---
+
+### Recover password
+
+Implemented elements and features:
+
+* Text Input Layout
+* Pick image or take photo
+* Manage App Permissions on Android 6.0
+
+![Recover-Password](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195049.gif)
 
 ---
 
@@ -69,74 +81,61 @@ Implemented elements and features:
 
 ---
 
-### Recover password
 
-Implemented elements and features:
 
-* Text Input Layout
-* Pick image or take photo
-* Manage App Permissions on Android 6.0
-
-![Recover-Password](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195049.gif)
-
----
-
-### Post Details
+### Build Community Ask ques & get ans
 
 Implemented elements and features:
 
 * Clickable link in description
-* Like button animation
-* Add comments
-* Scroll to the first comment by press on Comments Counter
-* Collapse/expand text in the long comments
-* Add complain for the post
-* Page is updated in real time
+* Vote to each question
 
-![post_detail](https://cloud.githubusercontent.com/assets/2683612/24911820/f25559a0-1ed4-11e7-972f-aaf93c8c63b3.gif)
+
+![Community](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195303.gif)
 
 ---
 
-### Image Details
+### Chat with Friends
 
 Implemented elements and features:
 
-* Zooming image
+* Send Text to each other
+* sned imge to each other
 
-![image_detail](https://cloud.githubusercontent.com/assets/2683612/24905278/0c8b031a-1ebc-11e7-86f9-c7b3ec276d63.gif)
+![Chat](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195506.gif)
 
 ---
 
-### Post Details. Comments
+
+### Search and Find People
 
 Implemented elements and features:
 
-* Comments counter
-* Collapse / expand text of large comment
-* Date of a comment
+* Posts and likes counters
+* Refresh list of posts
 
-![comments](https://cloud.githubusercontent.com/assets/2683612/24905274/0c849db8-1ebc-11e7-9407-bdfa25c3a818.gif)
+
+![profile](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195358.gif)
 
 ---
 
-### Profile
+### Search to Chat with People
 
 Implemented elements and features:
 
 * Posts and likes counters
 * Refresh list of posts
 * Update profile information (photo and name) in real time
-* RecyclerView with CardViews
-* My profile options:
-    * sign in
-    * edit profile
-    * create a post
 
-![profile](https://cloud.githubusercontent.com/assets/2683612/24905714/849c725c-1ebd-11e7-9533-a3ae31cb066d.gif)
+
+![search to chat](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195545.gif)
+
 
 ---
 
-### Panel of Counters
+
+
+### See your Profile pic in full Screen
 
 Implemented elements and features:
 
@@ -145,11 +144,11 @@ Implemented elements and features:
 * Possibility to add like by click on “like” button
 * Animation of like button
 
-![counters_panel](https://cloud.githubusercontent.com/assets/2683612/24905991/ae28f824-1ebe-11e7-8f9a-91cd988f0b07.jpg)
+![Profile Pic](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195623.gif)
 
 ---
 
-### Edit profile
+### Find individual Posts of each user
 
 Implemented elements and features:
 
@@ -158,6 +157,6 @@ Implemented elements and features:
 * Pick image or take photo
 * Manage App Permissions on Android 6.0
 
-![edit_profile](https://cloud.githubusercontent.com/assets/2683612/24905277/0c89a1dc-1ebc-11e7-912e-8ffbb6223e52.gif)
+![Individual post](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195805.gif)
 
-The Social App is a Minimum Viable Product intended for building social features for an Android application. It is free to use for other developers. Though, our team is ready to create a mobile application for you implementing any social features you need, along with GPS-navigation functions, and an offline mode. Contact us to know more.
+
