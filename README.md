@@ -25,8 +25,12 @@ The latest app version is available
 
 Implemented elements and features:
 
-* Hiding Toolbar when the post list is scrolling down and showing it again when it’s scrolling up.
-* RecyclerView with CardViews
+* Users can post:- images & videos
+* You can chat to each other:- send Images and text messages.
+* Build community :- Ask questions
+* Visibility support:- user can how show or hide their profile by specifying, there profile type using public or private 
+* Modern UI: -  Uses Neomorphism design theme.
+* Manage permissions.
 
 
 ### Main screen
@@ -56,13 +60,13 @@ Implemented elements and effects:
 
 ---
 
-### Recover password
+### Recover  Forget Password
 
 Implemented elements and features:
 
-* Text Input Layout
-* Pick image or take photo
-* Manage App Permissions on Android 6.0
+* Recover your pasword
+* provide your email and get a link in your email
+* Click on password recovery link and set Your new Password.
 
 ![Recover-Password](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195049.gif)
 
@@ -72,10 +76,10 @@ Implemented elements and features:
 
 Implemented elements and features:
 
-* Feeling in fields with data from social network
-* Text Input Layout
-* Pick image or take photo
-* Manage App Permissions on Android 6.0
+* Name
+* professsion
+*prof pic:- Pick image  from gallery
+* website link
 
 ![Update_profile](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195726.gif)
 
@@ -87,20 +91,23 @@ Implemented elements and features:
 
 Implemented elements and features:
 
-* Clickable link in description
-* Vote to each question
+* Feel free to ak the ques and get the ans.
+* Reply to each ques.
+* Vote to ques.
+* separete your ques.
+* Related
 
 
 ![Community](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195303.gif)
 
 ---
 
-### Chat with Friends
+### Chat with Friends Enjoy!!
 
 Implemented elements and features:
 
-* Send Text to each other
-* sned imge to each other
+* Send Text to each other 
+* send imge to each other
 
 ![Chat](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195506.gif)
 
@@ -111,8 +118,8 @@ Implemented elements and features:
 
 Implemented elements and features:
 
-* Posts and likes counters
-* Refresh list of posts
+* See the profiles of peoples.
+* Follow or unfollow them.
 
 
 ![profile](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195358.gif)
@@ -123,9 +130,9 @@ Implemented elements and features:
 
 Implemented elements and features:
 
-* Posts and likes counters
-* Refresh list of posts
-* Update profile information (photo and name) in real time
+* Search Peoples you want to chat.
+* Make new friends
+* Feel free
 
 
 ![search to chat](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195545.gif)
@@ -139,10 +146,9 @@ Implemented elements and features:
 
 Implemented elements and features:
 
-* Counters of watches, likes and comments
-* Created date
-* Possibility to add like by click on “like” button
-* Animation of like button
+* Click the profile pic
+* See in full size.
+
 
 ![Profile Pic](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195623.gif)
 
@@ -152,10 +158,10 @@ Implemented elements and features:
 
 Implemented elements and features:
 
-* Feeling in fields with personal info of current user
-* Text Input Layout
-* Pick image or take photo
-* Manage App Permissions on Android 6.0
+* See the post of yours.
+* Videos
+* images
+
 
 ![Individual post](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195805.gif)
 
