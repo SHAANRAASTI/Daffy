@@ -78,7 +78,7 @@ Implemented elements and features:
 
 * Name
 * professsion
-*prof pic:- Pick image  from gallery
+* prof pic:- Pick image  from gallery
 * website link
 
 ![Update_profile](https://github.com/SHAANRAASTI/Daffy/blob/master/Screenshots/miniGif_20210218195726.gif)
@@ -94,7 +94,7 @@ Implemented elements and features:
 * Feel free to ak the ques and get the ans.
 * Reply to each ques.
 * Vote to ques.
-* separete your ques.
+* separate your ques.
 * Related
 
 
