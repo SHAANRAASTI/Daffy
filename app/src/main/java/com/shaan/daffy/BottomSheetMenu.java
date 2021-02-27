@@ -31,11 +31,16 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
+import org.jetbrains.annotations.NotNull;
+
 public class BottomSheetMenu extends BottomSheetDialogFragment {
 
 
     FirebaseFirestore db = FirebaseFirestore.getInstance();
-    DocumentReference reference ;
+
+
+   DatabaseReference reference;
+   // DocumentReference reference ;
     CardView cv_privacy,cv_logout,cv_delete;
     FirebaseAuth mAuth;
     DatabaseReference df;
@@ -48,7 +53,7 @@ public class BottomSheetMenu extends BottomSheetDialogFragment {
        View view = getLayoutInflater().inflate(R.layout.bottom_sheet_menu,null);
 
 
-       cv_delete = view.findViewById(R.id.cv_delete);
+       //cv_delete = view.findViewById(R.id.cv_delete);
        cv_logout = view.findViewById(R.id.cv_logout);
        cv_privacy = view.findViewById(R.id.cv_privacy);
        mAuth = FirebaseAuth.getInstance();
@@ -60,21 +65,28 @@ public class BottomSheetMenu extends BottomSheetDialogFragment {
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         currentid= user.getUid();
 
-        df = FirebaseDatabase.getInstance().getReference("All Users");
-       reference = db.collection("user").document(currentid);
-       reference.get()
-               .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-                   @Override
-                   public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+        reference = FirebaseDatabase.getInstance().getReference("All Users");
+      // reference = db.collection("user").document(currentid);
 
-                       if (task.getResult().exists()){
-                           url = task.getResult().getString("url");
+             reference.child(currentid).addValueEventListener(new ValueEventListener() {
+                 @Override
+                 public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
+
+                     if (dataSnapshot.exists()) {
+                           url = dataSnapshot.child("url").toString();
 
                        }else {
 
+                         Toast.makeText(getActivity(), "Url not exist", Toast.LENGTH_SHORT).show();
+
                        }
                    }
-               });
+
+                 @Override
+                 public void onCancelled(@NonNull DatabaseError error) {
+
+                 }
+             });
 
 
        mCurrentUser = mAuth.getCurrentUser();
@@ -93,7 +105,7 @@ public class BottomSheetMenu extends BottomSheetDialogFragment {
                startActivity(new Intent(getActivity(),PrivacyActivity.class));
            }
        });
-       cv_delete.setOnClickListener(new View.OnClickListener() {
+       /*cv_delete.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
 
@@ -105,43 +117,43 @@ public class BottomSheetMenu extends BottomSheetDialogFragment {
                            @Override
                            public void onClick(DialogInterface dialogInterface, int i) {
 
+                                       Query query = reference.orderByChild("uid").equalTo(currentid);
+                                       query.addListenerForSingleValueEvent(new ValueEventListener() {
+                                           @Override
+                                           public void onDataChange(@NonNull DataSnapshot snapshot) {
+                                               for(DataSnapshot dataSnapshot : snapshot.getChildren()){
+                                                   dataSnapshot.getRef().removeValue();
+                                                   Toast.makeText(getActivity(), "Deleted", Toast.LENGTH_SHORT).show();
+                                               }
+                                           }
 
-                               reference.delete()
+                                           @Override
+                                           public void onCancelled(@NonNull DatabaseError error) {
+
+                                           }
+
+
+                                       });
+
+
+                               StorageReference ref = FirebaseStorage.getInstance().getReferenceFromUrl(url);
+                               ref.delete()
                                        .addOnSuccessListener(new OnSuccessListener<Void>() {
                                            @Override
                                            public void onSuccess(Void aVoid) {
 
 
-                                               Query query = df.orderByChild("uid").equalTo(currentid);
-                                               query.addListenerForSingleValueEvent(new ValueEventListener() {
-                                                   @Override
-                                                   public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                                       for(DataSnapshot dataSnapshot : snapshot.getChildren()){
-                                                           dataSnapshot.getRef().removeValue();
-                                                       }
-                                                   }
-
-                                                   @Override
-                                                   public void onCancelled(@NonNull DatabaseError error) {
-
-                                                   }
-                                               });
-
-                                               StorageReference ref = FirebaseStorage.getInstance().getReferenceFromUrl(url);
-                                               ref.delete()
-                                                       .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                                           @Override
-                                                           public void onComplete(@NonNull Task<Void> task) {
-
-
-                                                               Toast.makeText(getActivity(), "Deleted", Toast.LENGTH_SHORT).show();
-                                                           }
-                                                       });
+                                               Toast.makeText(getActivity(), "Deleted", Toast.LENGTH_SHORT).show();
                                            }
                                        });
 
 
-                           }
+
+                                           }
+
+
+
+
                        })
                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
                            @Override
@@ -153,7 +165,7 @@ public class BottomSheetMenu extends BottomSheetDialogFragment {
                builder.show();
 
            }
-       });
+       });*/
 
 
 

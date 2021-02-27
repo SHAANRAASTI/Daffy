@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android_neumorphic/Social Impression.Social_Impression.android_neumorphic.iml" filepath="$PROJECT_DIR$/.idea/modules/android_neumorphic/Social Impression.Social_Impression.android_neumorphic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/liquidswipe/Social Impression.Social_Impression.liquidswipe.iml" filepath="$PROJECT_DIR$/.idea/modules/liquidswipe/Social Impression.Social_Impression.liquidswipe.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Social_Impression.iml" filepath="$PROJECT_DIR$/.idea/modules/Social_Impression.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android_neumorphic/Social_Impression.android_neumorphic.iml" filepath="$PROJECT_DIR$/.idea/modules/android_neumorphic/Social_Impression.android_neumorphic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Social_Impression.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Social_Impression.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/liquidswipe/Social_Impression.liquidswipe.iml" filepath="$PROJECT_DIR$/.idea/modules/liquidswipe/Social_Impression.liquidswipe.iml" />
     </modules>
   </component>
 </project>

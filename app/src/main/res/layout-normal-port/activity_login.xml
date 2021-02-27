@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/loginbackground"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:background="@drawable/animation_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in and let's get started"
+            android:fontFamily="@font/alegreya"
+            android:layout_marginTop="20dp"
+            android:textSize="23sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in and let's get started"
+            android:textSize="22sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+    <!-- Textview: Label Login-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:orientation="vertical">
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:neumorph_shapeType="pressed"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/emailEt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/email"
+                android:drawablePadding="3dp"
+                android:paddingVertical="12dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/alegreya"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black"
+                android:hint="Email"
+                app:met_floatingLabelTextSize="11sp"
+                app:met_floatingLabelPadding="3dp"
+                app:met_floatingLabel="highlight"
+                app:met_clearButton="true"
+                app:met_hideUnderline="true"/>
+        </soup.neumorphism.NeumorphCardView>
+        <!-- EditText: Input Email-->
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:neumorph_shapeType="pressed"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="20dp">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/passwordEt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/lock"
+                android:drawablePadding="3dp"
+                android:paddingVertical="12dp"
+                android:inputType="textPassword"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/alegreya"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black"
+                android:hint="Password"
+                app:met_floatingLabelTextSize="11sp"
+                app:met_floatingLabelPadding="3dp"
+                app:met_floatingLabel="highlight"
+                app:met_clearButton="true"
+                app:met_hideUnderline="true"/>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+
+                android:id="@+id/recoverPassTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loginBtn"
+                android:text="Forget Password Recover"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorBlack"
+
+                />
+
+        </LinearLayout>
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/loginBtn"
+            style="@style/Widget.Neumorph.Button"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            app:neumorph_shadowElevation="3dp"
+            android:fontFamily="@font/alegreya"
+            android:text="Login"
+            android:textSize="24sp"
+            android:textColor="#116eff"/>
+
+        <TextView
+            android:id="@+id/signinwith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign in with"
+            android:fontFamily="@font/alegreya"
+            android:textColor="@color/colorBlack"/>
+        <!-- GoogleSignInBtn: Sign in with google account-->
+
+
+        <com.example.android_neumorphic.sshadkany.RectButton
+            android:id="@+id/googleLogInBtn"
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+
+            app:shape_roundRect_bottomLeftRadius="100dp"
+            app:shape_roundRect_bottomRightRadius="100dp"
+            app:shape_roundRect_topRightRadius="100dp"
+            app:shape_roundRect_topLeftRadius="100dp"
+
+            app:shape_roundRect_backgroundColor="#ffffff"
+            app:shape_roundRect_light_color="#66494949"
+            app:shape_roundRect_dark_color="#66000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/signinwith"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="32dp"
+                app:srcCompat="@drawable/google" />
+        </com.example.android_neumorphic.sshadkany.RectButton>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/nothave_accountTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dont' have an account Signup"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

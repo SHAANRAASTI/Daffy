@@ -179,13 +179,7 @@ com/shaan/daffy/BottomSheetMenu.java
  com.shaan.daffy.BottomSheetMenu$2
  com.shaan.daffy.BottomSheetMenu$3
  com.shaan.daffy.BottomSheetMenu$4
- com.shaan.daffy.BottomSheetMenu$4$1
- com.shaan.daffy.BottomSheetMenu$4$2
- com.shaan.daffy.BottomSheetMenu$4$2$1
- com.shaan.daffy.BottomSheetMenu$4$2$1$1
- com.shaan.daffy.BottomSheetMenu$4$2$1$2
  com.shaan.daffy.BottomSheetMenu$5
- com.shaan.daffy.BottomSheetMenu$6
 com/shaan/daffy/ImageActivity.java
  com.shaan.daffy.ImageActivity
  com.shaan.daffy.ImageActivity$1

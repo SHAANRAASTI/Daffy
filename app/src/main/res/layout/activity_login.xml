@@ -159,7 +159,7 @@
         <com.example.android_neumorphic.sshadkany.RectButton
             android:id="@+id/googleLogInBtn"
             android:layout_width="250dp"
-            android:layout_height="120dp"
+            android:layout_height="110dp"
 
             app:shape_roundRect_bottomLeftRadius="100dp"
             app:shape_roundRect_bottomRightRadius="100dp"
