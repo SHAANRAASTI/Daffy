@@ -178,7 +178,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:text="*******"
+        android:text=""
         android:textSize="15sp"
         android:layout_marginStart="20dp"
         android:drawablePadding="20dp"
@@ -187,7 +187,7 @@
         android:id="@+id/name_tv_showprofile"
         />
 
-    <TableRow
+   <!-- <TableRow
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="40dp"
@@ -219,7 +219,7 @@
         android:paddingStart="20dp"
         android:textAlignment="viewStart"
         android:id="@+id/bio_tv_showprofile"
-        />
+        />-->
 
     <TableRow
         android:layout_width="match_parent"
@@ -244,16 +244,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:text="*******"
+        android:text="******************"
         android:textSize="15sp"
         android:layout_marginStart="20dp"
         android:drawablePadding="20dp"
         android:paddingStart="20dp"
         android:textAlignment="viewStart"
-        android:id="@+id/age_tv_showprofile"
+        android:id="@+id/bio_tv_showprofile"
         />
 
-    <TableRow
+    <!--<TableRow
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="40dp"
@@ -285,9 +285,9 @@
         android:textSize="15sp"
         android:layout_marginLeft="0dp"
         android:id="@+id/email_tv_showProfile"
-        />
+        />-->
 
-    <TableRow
+    <!--<TableRow
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginBottom="10dp"
@@ -318,7 +318,7 @@
         android:paddingStart="20dp"
         android:textSize="15sp"
         android:id="@+id/website_tv_showprofile"
-        />
+        /> -->
 
     <TableRow
         android:layout_width="match_parent"
@@ -329,7 +329,7 @@
         android:background="@android:color/darker_gray"/>
     
     
-    <TextView
+   <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/purple_200"

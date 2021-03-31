@@ -63,13 +63,13 @@ public class ShowUser extends AppCompatActivity {
 
 
         nametv = findViewById(R.id.name_tv_showprofile);
-        professiontv = findViewById(R.id.age_tv_showprofile);
-        biotv = findViewById(R.id.bio_tv_showprofile);
-        emailtv = findViewById(R.id.email_tv_showProfile);
+       // professiontv = findViewById(R.id.bio_tv_showprofile);
+       biotv = findViewById(R.id.bio_tv_showprofile);
+      //  emailtv = findViewById(R.id.email_tv_showProfile);
         imageView = findViewById(R.id.imageView_showprofile);
-        websitetv = findViewById(R.id.website_tv_showprofile);
+      //  websitetv = findViewById(R.id.website_tv_showprofile);
         button = findViewById(R.id.btn_requestshowprofile);
-        requesttv = findViewById(R.id.tv_requestshowprofile);
+       requesttv = findViewById(R.id.tv_requestshowprofile);
 
         followers_tv = findViewById(R.id.followerNo_tv);
         posts_tv = findViewById(R.id.postsNo_tv);
@@ -159,30 +159,30 @@ public class ShowUser extends AppCompatActivity {
 
 
                                if (p.equals("Public")){
-                                   professiontv.setText(bio_result);
+                                  // professiontv.setText(bio_result);
                                    nametv.setText(name_result);
-                                   biotv.setText(age_result);
-                                   emailtv.setText(email_result);
-                                   websitetv.setText(web_result);
+                                   biotv.setText(bio_result);
+                                  // emailtv.setText(email_result);
+                                 //  websitetv.setText(web_result);
                                    Picasso.get().load(Url).into(imageView);
                                    requesttv.setVisibility(View.GONE);
                                }else {
 
                                    String u = button.getText().toString();
                                    if (u.equals("Following")){
-                                       professiontv.setText(bio_result);
+                                      // professiontv.setText(bio_result);
                                        nametv.setText(name_result);
-                                       biotv.setText(age_result);
-                                       emailtv.setText(email_result);
-                                       websitetv.setText(web_result);
+                                       biotv.setText(bio_result);
+                                     //  emailtv.setText(email_result);
+                                      // websitetv.setText(web_result);
                                        Picasso.get().load(Url).into(imageView);
                                        requesttv.setVisibility(View.GONE);
                                    }else {
-                                       professiontv.setText("*****************");
+                                    //   professiontv.setText("*****************");
                                        nametv.setText(name_result);
                                        biotv.setText("*****************");
-                                       emailtv.setText("*****************");
-                                       websitetv.setText("*****************");
+                                      // emailtv.setText("*****************");
+                                     //  websitetv.setText("*****************");
                                        Picasso.get().load(Url).into(imageView);
                                        requesttv.setVisibility(View.VISIBLE);
                                    }

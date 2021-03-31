@@ -2041,7 +2041,6 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
-id age_tv_showprofile
 id alertTitle
 id aligned
 id all
@@ -2167,7 +2166,6 @@ id easeInOut
 id easeOut
 id edit_query
 id emailEt
-id email_tv_showProfile
 id end
 id end_padder
 id enterAlways
@@ -2599,7 +2597,6 @@ id viewpager
 id visible
 id vv_post
 id vv_post_ind
-id website_tv_showprofile
 id when_playing
 id wide
 id withText
