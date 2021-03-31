@@ -113,22 +113,13 @@ com/shaan/daffy/Fragment4.java
  com.shaan.daffy.Fragment4$2$2
  com.shaan.daffy.Fragment4$2$3
  com.shaan.daffy.Fragment4$2$4
- com.shaan.daffy.Fragment4$3
- com.shaan.daffy.Fragment4$3$1
- com.shaan.daffy.Fragment4$4
- com.shaan.daffy.Fragment4$5
 com/shaan/daffy/RequestViewholder.java
  com.shaan.daffy.RequestViewholder
 com/shaan/daffy/main/PageViewModel.java
  com.shaan.daffy.main.PageViewModel
  com.shaan.daffy.main.PageViewModel$1
-com/shaan/daffy/ChatActivity.java
- com.shaan.daffy.ChatActivity
- com.shaan.daffy.ChatActivity$1
- com.shaan.daffy.ChatActivity$1$1
- com.shaan.daffy.ChatActivity$1$1$1
- com.shaan.daffy.ChatActivity$2
- com.shaan.daffy.ChatActivity$2$1
+com/shaan/daffy/ImagesFragment.java
+ com.shaan.daffy.ImagesFragment
 com/shaan/daffy/models/AnswerMember.java
  com.shaan.daffy.models.AnswerMember
 com/shaan/daffy/PrivacyActivity.java
@@ -139,11 +130,10 @@ com/shaan/daffy/PrivacyActivity.java
  com.shaan.daffy.PrivacyActivity$4
 com/shaan/daffy/MessageViewHolder.java
  com.shaan.daffy.MessageViewHolder
-com/shaan/daffy/MessageActivity.java
- com.shaan.daffy.MessageActivity
- com.shaan.daffy.MessageActivity$1
- com.shaan.daffy.MessageActivity$2
- com.shaan.daffy.MessageActivity$3
+com/shaan/daffy/MainActivity.java
+ com.shaan.daffy.MainActivity
+ com.shaan.daffy.MainActivity$1
+ com.shaan.daffy.MainActivity$2
 com/shaan/daffy/models/QuestionMember.java
  com.shaan.daffy.models.QuestionMember
 com/shaan/daffy/Fragment5.java
@@ -213,9 +203,19 @@ com/shaan/daffy/ShowUser.java
  com.shaan.daffy.ShowUser$9
 com/shaan/daffy/BuildConfig.java
  com.shaan.daffy.BuildConfig
-com/shaan/daffy/ImagesFragment.java
- com.shaan.daffy.ImagesFragment
-com/shaan/daffy/MainActivity.java
- com.shaan.daffy.MainActivity
- com.shaan.daffy.MainActivity$1
- com.shaan.daffy.MainActivity$2
+com/shaan/daffy/MessageActivity.java
+ com.shaan.daffy.MessageActivity
+ com.shaan.daffy.MessageActivity$1
+ com.shaan.daffy.MessageActivity$2
+ com.shaan.daffy.MessageActivity$3
+ com.shaan.daffy.MessageActivity$3$1
+ com.shaan.daffy.MessageActivity$3$1$1
+ com.shaan.daffy.MessageActivity$3$2
+ com.shaan.daffy.MessageActivity$3$2$1
+com/shaan/daffy/ChatActivity.java
+ com.shaan.daffy.ChatActivity
+ com.shaan.daffy.ChatActivity$1
+ com.shaan.daffy.ChatActivity$1$1
+ com.shaan.daffy.ChatActivity$1$1$1
+ com.shaan.daffy.ChatActivity$2
+ com.shaan.daffy.ChatActivity$2$1

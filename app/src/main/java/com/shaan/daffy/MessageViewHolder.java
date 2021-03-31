@@ -2,7 +2,9 @@ package com.shaan.daffy;
 
 import android.app.Application;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,6 +19,7 @@ public class MessageViewHolder extends RecyclerView.ViewHolder {
 
     TextView senderTv, receiverTv;
     ImageView iv_sender,iv_receiver;
+    ImageButton playsender,playreceiver;
 
     public MessageViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -25,6 +28,12 @@ public class MessageViewHolder extends RecyclerView.ViewHolder {
 
         senderTv = itemView.findViewById(R.id.sender_tv);
         receiverTv = itemView.findViewById(R.id.receiver_tv);
+        playreceiver = itemView.findViewById(R.id.play_message_receiver);
+        playsender = itemView.findViewById(R.id.play_message_sender);
+        LinearLayout llsender = itemView.findViewById(R.id.llsender);
+        LinearLayout llreceiver = itemView.findViewById(R.id.llreceiver);
+
+
 
         iv_receiver = itemView.findViewById(R.id.iv_receiver);
         iv_sender = itemView.findViewById(R.id.iv_sender);
@@ -65,6 +74,31 @@ public class MessageViewHolder extends RecyclerView.ViewHolder {
 
 
             }
+
+        } else if (type.equals("audio"))
+        {
+
+            if (currentUid.equals(senderuid))
+            {
+                senderTv.setVisibility(View.GONE);
+                receiverTv.setVisibility(View.GONE);
+                llsender.setVisibility(View.VISIBLE);
+                llreceiver.setVisibility(View.GONE);
+
+
+            }
+            else if(currentUid.equals(receiveruid))
+            {
+
+                senderTv.setVisibility(View.GONE);
+                receiverTv.setVisibility(View.GONE);
+                llsender.setVisibility(View.GONE);
+                llreceiver.setVisibility(View.VISIBLE);
+
+            }
+
+
+
 
         }
 

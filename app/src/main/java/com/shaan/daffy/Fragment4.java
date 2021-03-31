@@ -198,10 +198,10 @@ public class Fragment4 extends Fragment implements View.OnClickListener{
 
         LayoutInflater inflater = LayoutInflater.from(getActivity());
         View view = inflater.inflate(R.layout.post_options,null);
-        TextView download = view.findViewById(R.id.download_tv_post);
-        TextView share = view.findViewById(R.id.share_tv_post);
+       // TextView download = view.findViewById(R.id.download_tv_post);
+        //    TextView share = view.findViewById(R.id.share_tv_post);
         TextView delete = view.findViewById(R.id.delete_tv_post);
-        TextView copyurl = view.findViewById(R.id.copyurl_tv_post);
+        //TextView copyurl = view.findViewById(R.id.copyurl_tv_post);
 
 
         AlertDialog alertDialog = new AlertDialog.Builder(getActivity())
@@ -292,7 +292,7 @@ public class Fragment4 extends Fragment implements View.OnClickListener{
              }
          });
 
-         download.setOnClickListener(new View.OnClickListener() {
+     /*    download.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
 
@@ -351,10 +351,10 @@ public class Fragment4 extends Fragment implements View.OnClickListener{
 
 
              }
-         });
+         });*/
 
 
-         share.setOnClickListener(new View.OnClickListener() {
+        /*   share.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
 
@@ -382,7 +382,7 @@ public class Fragment4 extends Fragment implements View.OnClickListener{
                  alertDialog.dismiss();
 
              }
-         });
+         });*/
 
 
 

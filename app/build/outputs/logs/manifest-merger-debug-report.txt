@@ -125,6 +125,10 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from D:\Daffy\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
 		ADDED from D:\Daffy\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Daffy\app\src\main\AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from D:\Daffy\app\src\main\AndroidManifest.xml:8:22-68
 application
 ADDED from D:\Daffy\app\src\main\AndroidManifest.xml:9:5-65:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\SHAAN\.gradle\caches\transforms-2\files-2.1\5655e3fc5f49560096a16a3577c18b33\material-1.2.1\AndroidManifest.xml:22:5-20

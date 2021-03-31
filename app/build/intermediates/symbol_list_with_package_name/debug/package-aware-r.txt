@@ -1856,6 +1856,7 @@ drawable ic_account
 drawable ic_add_image
 drawable ic_baseline_add_24
 drawable ic_baseline_add_photo_alternate_24
+drawable ic_baseline_black
 drawable ic_baseline_bookmarks_24
 drawable ic_baseline_camera_alt_24
 drawable ic_baseline_category_24
@@ -1867,6 +1868,8 @@ drawable ic_baseline_keyboard_arrow_left_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_menu_24
 drawable ic_baseline_mic_24
+drawable ic_baseline_pause_black
+drawable ic_baseline_pause_white
 drawable ic_baseline_people_24
 drawable ic_baseline_person_24
 drawable ic_baseline_power_settings_new_24
@@ -1876,6 +1879,7 @@ drawable ic_baseline_rate_review_24
 drawable ic_baseline_restore_24
 drawable ic_baseline_turned_in_24
 drawable ic_baseline_turned_in_not_24
+drawable ic_baseline_white
 drawable ic_baseline_work_24
 drawable ic_bio
 drawable ic_chat_black
@@ -1949,9 +1953,13 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable receiver_back
+drawable receiver_left
+drawable receiver_right
 drawable search_back
 drawable send_back
 drawable sender_back
+drawable sender_left
+drawable sender_right
 drawable shaan
 drawable skip_icon
 drawable test_custom_background
@@ -2068,9 +2076,13 @@ id btn_choosefile_post
 id btn_cp
 id btn_del_iv
 id btn_edit_iv
+id btn_mic
 id btn_privacy
 id btn_requestshowprofile
 id btn_sendImage
+id btn_send_rc
+id btn_start_rc
+id btn_stop_rc
 id btn_submit
 id btn_up
 id btn_uploadfile_post
@@ -2108,7 +2120,6 @@ id container
 id content
 id contentPanel
 id coordinator
-id copyurl_tv_post
 id cos
 id createpost_f4
 id custom
@@ -2143,7 +2154,6 @@ id direct
 id disableHome
 id disablePostScroll
 id disableScroll
-id download_tv_post
 id dragDown
 id dragEnd
 id dragLeft
@@ -2292,6 +2302,8 @@ id linear1
 id linearLayout
 id listMode
 id list_item
+id llreceiver
+id llsender
 id loginBtn
 id login_btn
 id lottieAnimationView
@@ -2369,6 +2381,8 @@ id pb_sendImage
 id peekHeight
 id percent
 id pin
+id play_message_receiver
+id play_message_sender
 id position
 id postLayout
 id postsNo_tv
@@ -2452,7 +2466,6 @@ id sender_tv
 id sendtochatactivity
 id shaan_profile_name
 id shaan_profile_photo
-id share_tv_post
 id shortcut
 id showCustom
 id showHome
@@ -2563,6 +2576,7 @@ id tv_name_profile
 id tv_post_f1
 id tv_prof_f1
 id tv_profession_profile
+id tv_record_staus
 id tv_request_name_item
 id tv_requestshowprofile
 id tv_status
@@ -2771,6 +2785,7 @@ layout post_options
 layout post_videos
 layout profile
 layout question_item
+layout record_layout
 layout related_item
 layout request_item
 layout select_dialog_item_material
