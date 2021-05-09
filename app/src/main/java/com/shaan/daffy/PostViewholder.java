@@ -57,10 +57,10 @@ public class PostViewholder extends RecyclerView.ViewHolder {
         iv_post = itemView.findViewById(R.id.iv_post_item);
     //    tv_comment = itemView.findViewById(R.id.commentbutton_posts);
         tv_desc = itemView.findViewById(R.id.tv_desc_post);
-        commentbtn = itemView.findViewById(R.id.commentbutton_posts);
+        //commentbtn = itemView.findViewById(R.id.commentbutton_posts);
         likebtn = itemView.findViewById(R.id.likebutton_posts);
         tv_likes = itemView.findViewById(R.id.tv_likes_post);
-        menuoptions = itemView.findViewById(R.id.morebutton_posts);
+        //menuoptions = itemView.findViewById(R.id.morebutton_posts);
         tv_time = itemView.findViewById(R.id.tv_time_post);
         tv_nameprofile = itemView.findViewById(R.id.tv_name_post);
 

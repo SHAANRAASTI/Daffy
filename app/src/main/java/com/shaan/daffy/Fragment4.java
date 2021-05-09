@@ -129,12 +129,12 @@ public class Fragment4 extends Fragment implements View.OnClickListener{
 
                         holder.likeschecker(postkey);
 
-                        holder.menuoptions.setOnClickListener(new View.OnClickListener() {
+                     /*   holder.menuoptions.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 showDialog(name,url,time,userid,type);
                             }
-                        });
+                        });*/
                         holder.likebtn.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
@@ -197,21 +197,21 @@ public class Fragment4 extends Fragment implements View.OnClickListener{
     void showDialog(String name,String url,String time,String userid,String type){
 
         LayoutInflater inflater = LayoutInflater.from(getActivity());
-        View view = inflater.inflate(R.layout.post_options,null);
+       // View view = inflater.inflate(R.layout.post_options,null);
        // TextView download = view.findViewById(R.id.download_tv_post);
         //    TextView share = view.findViewById(R.id.share_tv_post);
-        TextView delete = view.findViewById(R.id.delete_tv_post);
+        ///TextView delete = view.findViewById(R.id.delete_tv_post);
         //TextView copyurl = view.findViewById(R.id.copyurl_tv_post);
 
 
-        AlertDialog alertDialog = new AlertDialog.Builder(getActivity())
+       /* AlertDialog alertDialog = new AlertDialog.Builder(getActivity())
                 .setView(view)
                 .create();
 
-        alertDialog.show();
+        alertDialog.show();*/
 
 
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+       /* FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
          String currentUserid = user.getUid();
 
          if (userid.equals(currentUserid)){
@@ -287,10 +287,10 @@ public class Fragment4 extends Fragment implements View.OnClickListener{
                              }
                          });
 
-                 alertDialog.dismiss();
+                // alertDialog.dismiss();
 
              }
-         });
+         });*/
 
      /*    download.setOnClickListener(new View.OnClickListener() {
              @Override

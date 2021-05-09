@@ -2113,7 +2113,6 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id collapseActionView
-id commentbutton_posts
 id confirm_button
 id container
 id content
@@ -2319,7 +2318,6 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
-id morebutton_posts
 id motion_base
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week

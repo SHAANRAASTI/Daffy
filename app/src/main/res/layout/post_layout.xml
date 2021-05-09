@@ -132,23 +132,23 @@
                 android:id="@+id/likebutton_posts"
                 android:layout_marginLeft="10dp"/>
 
-            <ImageButton
+          <!--  <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_comment"
                 android:background="@android:color/transparent"
                 android:padding="5dp"
                 android:id="@+id/commentbutton_posts"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"/>-->
 
-            <ImageButton
+          <!--  <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_moreoptions"
                 android:background="@android:color/transparent"
                 android:padding="5dp"
                 android:id="@+id/morebutton_posts"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"/>-->
 
 
 

@@ -64,10 +64,15 @@ com/shaan/daffy/AskActivity.java
 com/shaan/daffy/AnsViewholder.java
  com.shaan.daffy.AnsViewholder
  com.shaan.daffy.AnsViewholder$1
-com/shaan/daffy/MainActivity.java
- com.shaan.daffy.MainActivity
- com.shaan.daffy.MainActivity$1
- com.shaan.daffy.MainActivity$2
+com/shaan/daffy/Fragment3.java
+ com.shaan.daffy.Fragment3
+ com.shaan.daffy.Fragment3$1
+ com.shaan.daffy.Fragment3$2
+ com.shaan.daffy.Fragment3$2$1
+ com.shaan.daffy.Fragment3$3
+ com.shaan.daffy.Fragment3$3$1
+ com.shaan.daffy.Fragment3$3$2
+ com.shaan.daffy.Fragment3$4
 com/shaan/daffy/Viewholder_Question.java
  com.shaan.daffy.Viewholder_Question
  com.shaan.daffy.Viewholder_Question$1
@@ -95,26 +100,24 @@ com/shaan/daffy/Related.java
  com.shaan.daffy.Related$1$1
 com/shaan/daffy/models/Postmember.java
  com.shaan.daffy.models.Postmember
-com/shaan/daffy/DashboardActivity.java
- com.shaan.daffy.DashboardActivity
-com/shaan/daffy/Fragment4.java
- com.shaan.daffy.Fragment4
- com.shaan.daffy.Fragment4$1
- com.shaan.daffy.Fragment4$1$1
- com.shaan.daffy.Fragment4$1$2
- com.shaan.daffy.Fragment4$1$2$1
- com.shaan.daffy.Fragment4$2
- com.shaan.daffy.Fragment4$2$1
- com.shaan.daffy.Fragment4$2$2
- com.shaan.daffy.Fragment4$2$3
- com.shaan.daffy.Fragment4$2$4
+com/shaan/daffy/MainActivity.java
+ com.shaan.daffy.MainActivity
+ com.shaan.daffy.MainActivity$1
+ com.shaan.daffy.MainActivity$2
+com/shaan/daffy/ImagesFragment.java
+ com.shaan.daffy.ImagesFragment
 com/shaan/daffy/RequestViewholder.java
  com.shaan.daffy.RequestViewholder
 com/shaan/daffy/main/PageViewModel.java
  com.shaan.daffy.main.PageViewModel
  com.shaan.daffy.main.PageViewModel$1
-com/shaan/daffy/BuildConfig.java
- com.shaan.daffy.BuildConfig
+com/shaan/daffy/ChatActivity.java
+ com.shaan.daffy.ChatActivity
+ com.shaan.daffy.ChatActivity$1
+ com.shaan.daffy.ChatActivity$1$1
+ com.shaan.daffy.ChatActivity$1$1$1
+ com.shaan.daffy.ChatActivity$2
+ com.shaan.daffy.ChatActivity$2$1
 com/shaan/daffy/models/AnswerMember.java
  com.shaan.daffy.models.AnswerMember
 com/shaan/daffy/PrivacyActivity.java
@@ -190,17 +193,6 @@ com/shaan/daffy/CreateProfile.java
  com.shaan.daffy.CreateProfile$3$1
  com.shaan.daffy.CreateProfile$3$1$1
  com.shaan.daffy.CreateProfile$4
-com/shaan/daffy/ImagesFragment.java
- com.shaan.daffy.ImagesFragment
-com/shaan/daffy/Fragment3.java
- com.shaan.daffy.Fragment3
- com.shaan.daffy.Fragment3$1
- com.shaan.daffy.Fragment3$2
- com.shaan.daffy.Fragment3$2$1
- com.shaan.daffy.Fragment3$3
- com.shaan.daffy.Fragment3$3$1
- com.shaan.daffy.Fragment3$3$2
- com.shaan.daffy.Fragment3$4
 com/shaan/daffy/ShowUser.java
  com.shaan.daffy.ShowUser
  com.shaan.daffy.ShowUser$1
@@ -212,10 +204,12 @@ com/shaan/daffy/ShowUser.java
  com.shaan.daffy.ShowUser$7
  com.shaan.daffy.ShowUser$8
  com.shaan.daffy.ShowUser$9
-com/shaan/daffy/ChatActivity.java
- com.shaan.daffy.ChatActivity
- com.shaan.daffy.ChatActivity$1
- com.shaan.daffy.ChatActivity$1$1
- com.shaan.daffy.ChatActivity$1$1$1
- com.shaan.daffy.ChatActivity$2
- com.shaan.daffy.ChatActivity$2$1
+com/shaan/daffy/BuildConfig.java
+ com.shaan.daffy.BuildConfig
+com/shaan/daffy/DashboardActivity.java
+ com.shaan.daffy.DashboardActivity
+com/shaan/daffy/Fragment4.java
+ com.shaan.daffy.Fragment4
+ com.shaan.daffy.Fragment4$1
+ com.shaan.daffy.Fragment4$1$1
+ com.shaan.daffy.Fragment4$1$1$1
