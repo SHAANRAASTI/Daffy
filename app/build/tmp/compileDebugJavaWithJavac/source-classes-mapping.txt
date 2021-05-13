@@ -100,12 +100,13 @@ com/shaan/daffy/Related.java
  com.shaan.daffy.Related$1$1
 com/shaan/daffy/models/Postmember.java
  com.shaan.daffy.models.Postmember
-com/shaan/daffy/MainActivity.java
- com.shaan.daffy.MainActivity
- com.shaan.daffy.MainActivity$1
- com.shaan.daffy.MainActivity$2
-com/shaan/daffy/ImagesFragment.java
- com.shaan.daffy.ImagesFragment
+com/shaan/daffy/DashboardActivity.java
+ com.shaan.daffy.DashboardActivity
+com/shaan/daffy/Fragment4.java
+ com.shaan.daffy.Fragment4
+ com.shaan.daffy.Fragment4$1
+ com.shaan.daffy.Fragment4$1$1
+ com.shaan.daffy.Fragment4$1$1$1
 com/shaan/daffy/RequestViewholder.java
  com.shaan.daffy.RequestViewholder
 com/shaan/daffy/main/PageViewModel.java
@@ -206,10 +207,9 @@ com/shaan/daffy/ShowUser.java
  com.shaan.daffy.ShowUser$9
 com/shaan/daffy/BuildConfig.java
  com.shaan.daffy.BuildConfig
-com/shaan/daffy/DashboardActivity.java
- com.shaan.daffy.DashboardActivity
-com/shaan/daffy/Fragment4.java
- com.shaan.daffy.Fragment4
- com.shaan.daffy.Fragment4$1
- com.shaan.daffy.Fragment4$1$1
- com.shaan.daffy.Fragment4$1$1$1
+com/shaan/daffy/ImagesFragment.java
+ com.shaan.daffy.ImagesFragment
+com/shaan/daffy/MainActivity.java
+ com.shaan.daffy.MainActivity
+ com.shaan.daffy.MainActivity$1
+ com.shaan.daffy.MainActivity$2
